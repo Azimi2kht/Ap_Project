@@ -34,6 +34,8 @@ set(PROJECT_SOURCES
         mainwindow.ui
         tiles.h
         tiles.cpp
+        resourcetile.h
+        resourcetile.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
