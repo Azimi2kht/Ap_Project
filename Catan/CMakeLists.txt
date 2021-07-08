@@ -36,6 +36,12 @@ set(PROJECT_SOURCES
         tiles.cpp
         resourcetile.h
         resourcetile.cpp
+        seatile.h
+        seatile.cpp
+        deserttile.h
+        deserttile.cpp
+        map.h
+        map.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
