@@ -7,7 +7,7 @@ class ResourceTile : public Tiles
 {
 private:
     int chance;
-    int access_permition[6];
+    int access_permition[NUM_OF_SIDE];
 // Resource resource_type;
 
 public:
