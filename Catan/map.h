@@ -5,6 +5,7 @@
 #define NUM_OF_TILES_HOR 10
 
 #include <tiles.h>
+#include <Qvector>
 
 class Map
 {
