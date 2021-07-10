@@ -26,12 +26,16 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
+find_package(Qt6 COMPONENTS Network REQUIRED)
 
 set(PROJECT_SOURCES
         main.cpp
-        main.cpp
-        main.h
-        main.ui
+        mainwindow.cpp
+        mainwindow.h
+        server.h
+        server.cpp
+        thread.h
+        thread.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -52,6 +56,7 @@ else()
 endif()
 
 target_link_libraries(Catan-Server PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(Catan-Server PRIVATE Qt6::Network)
 
 set_target_properties(Catan-Server PROPERTIES
     MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com
