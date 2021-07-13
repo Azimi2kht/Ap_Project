@@ -1,10 +1,10 @@
-#include "myserver.h"
+#include "server.h"
 
-MyServer::MyServer(QObject *parent) : QTcpServer(parent) {
+Server::Server(QObject *parent) : QTcpServer(parent) {
 
 }
 
-void MyServer::StartServer() {
+void Server::StartServer() {
     if(!this->listen(QHostAddress::Any, 1234)) {
         qDebug() << "could not start server";
     } else {
@@ -12,10 +12,10 @@ void MyServer::StartServer() {
     }
 }
 
-void MyServer::incomingConnection(qintptr socketDiscriptor) {
+void Server::incomingConnection(qintptr socketDiscriptor) {
     qDebug() << socketDiscriptor << " Connecting";
 
-    MyThread *thread = new MyThread(socketDiscriptor, this);
+    Thread *thread = new Thread(socketDiscriptor, this);
 
     connect(thread, SIGNAL(finished()), thread, SLOT(deleteLater()));
     thread->start();

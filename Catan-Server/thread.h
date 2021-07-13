@@ -5,10 +5,10 @@
 #include <QTcpSocket>
 #include <QDebug>
 
-class MyThread : public QThread{
+class Thread : public QThread{
 Q_OBJECT
 public:
-    explicit MyThread(int ID, QObject *parent = 0);
+    explicit Thread(int ID, QObject *parent = 0);
     void run();
 
 private:

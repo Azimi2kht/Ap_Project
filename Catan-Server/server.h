@@ -3,12 +3,12 @@
 
 #include <QTcpServer>
 #include <QDebug>
-#include "mythread.h"
+#include "thread.h"
 
-class MyServer : public QTcpServer
+class Server : public QTcpServer
 {
 public:
-    explicit MyServer(QObject *parent = nullptr);
+    explicit Server(QObject *parent = nullptr);
     void StartServer();
 
 protected:
