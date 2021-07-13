@@ -1,6 +1,5 @@
 #include "hex.h"
 #include "game.h"
-#include "resourcehex.h"
 
 extern Game* game;
 
@@ -19,7 +18,6 @@ Hex::Hex(hexType type ,QGraphicsItem *parent) {
 
      //create a QPyolygon with the scaled points
       hexagon = new QPolygonF(hexPoints);
-
 
     // draw the polygon
     setPolygon(*hexagon);

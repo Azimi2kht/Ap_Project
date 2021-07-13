@@ -27,9 +27,6 @@ protected:
     QBrush *brush;
     QPolygonF *hexagon;
 
-    // privaet methods
-
-
 };
 
 #endif // HEX_H

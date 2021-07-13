@@ -55,29 +55,12 @@ void HexBoard::createHexRow(int x, int y, int numOfColumns) {
     // number of rows
     for (size_t i = 0, n = numOfColumns ; i < n ; i++) {
         createSetHex(x + 84 * i, y, wood);
-
-
-
-        // picture
-//        QImage *myImage1 = new QImage(":/Imeges/C:/Users/Zbook/Pictures/Saved Pictures/wp3327026-portrait-monitor-wallpaper.jpg");
-//        QImage myImage = myImage1->scaled(100, 100, Qt::KeepAspectRatio);
-//        if(myImage.isNull()){
-//               qDebug() << "did not load Image";
-//           }
-//           QBrush *myb = new QBrush(myImage);
-//           myb->setStyle(Qt::TexturePattern);
-
-//           QPen outlinePen(Qt::black);
-
     }
-
-
-
 }
 
 QString HexBoard::getPicture(hexType type) {
     if (type == wood) {
-        return QString(":/Imeges/C:/Users/Zbook/Downloads/back-ground-light-blue.jpg");
+        return QString("");
 
     } else if (type == brick) {
         return QString("");

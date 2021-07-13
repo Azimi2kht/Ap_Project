@@ -22,9 +22,6 @@ private:
     void createHexRow(int x, int y, int numOfColumns);
     QString getPicture(hexType);
 
-
-
-
 };
 
 #endif // HEXBOARD_H
