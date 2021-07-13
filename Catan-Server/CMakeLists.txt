@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(Catan-Server VERSION 0.1 LANGUAGES CXX)
+project(Server VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -30,40 +30,38 @@ find_package(Qt6 COMPONENTS Network REQUIRED)
 
 set(PROJECT_SOURCES
         main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        server.h
-        server.cpp
-        thread.h
-        thread.cpp
+        myserver.h
+        myserver.cpp
+        mythread.h
+        mythread.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
-    qt_add_executable(Catan-Server
+    qt_add_executable(Server
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
     )
 else()
     if(ANDROID)
-        add_library(Catan-Server SHARED
+        add_library(Server SHARED
             ${PROJECT_SOURCES}
         )
     else()
-        add_executable(Catan-Server
+        add_executable(Server
             ${PROJECT_SOURCES}
         )
     endif()
 endif()
 
-target_link_libraries(Catan-Server PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
-target_link_libraries(Catan-Server PRIVATE Qt6::Network)
+target_link_libraries(Server PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(Server PRIVATE Qt6::Network)
 
-set_target_properties(Catan-Server PROPERTIES
+set_target_properties(Server PROPERTIES
     MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
 )
 
 if(QT_VERSION_MAJOR EQUAL 6)
-    qt_finalize_executable(Catan-Server)
+    qt_finalize_executable(Server)
 endif()
