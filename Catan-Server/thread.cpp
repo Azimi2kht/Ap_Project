@@ -1,12 +1,12 @@
-#include "mythread.h"
+#include "thread.h"
 
-MyThread::MyThread(int ID, QObject* parent)
+Thread::Thread(int ID, QObject* parent)
         :QThread(parent) {
 
     this->socketDescriptor = ID;
 }
 
-void MyThread::run() {
+void Thread::run() {
 
     qDebug() << socketDescriptor << "Thread starts";
     socket = new QTcpSocket();
@@ -23,7 +23,7 @@ void MyThread::run() {
     exec();
 }
 
-void MyThread::readyRead() {
+void Thread::readyRead() {
 
     QByteArray data = socket->readAll();
 
@@ -39,7 +39,7 @@ void MyThread::readyRead() {
 
 }
 
-void MyThread::disconnected() {
+void Thread::disconnected() {
 
     qDebug() << socketDescriptor << " Disconnected";
     socket->deleteLater();

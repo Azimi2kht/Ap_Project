@@ -1,11 +1,11 @@
 #include <QApplication>
-#include "myserver.h"
+#include "server.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    MyServer Server;
+    Server Server;
     Server.StartServer();
 
     return a.exec();
