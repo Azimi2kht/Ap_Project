@@ -38,13 +38,12 @@ Hex *HexBoard::createSetHex(int x, int y, hexType type) {
     hexes.append(hex);
 
     // set picture
-    QImage image(":/Imeges/C:/Users/Zbook/Downloads/Telegram Desktop/photo_2021-07-13_17-24-19.jpg");
+    QImage image(getPicture(type));
     image = image.scaled(150, 120, Qt::KeepAspectRatio);
     QBrush* brush = new QBrush(image);
     brush->setStyle(Qt::TexturePattern);
 
     hex->setBrush(*brush);
-
 
     // add poly to scene
     game->scene->addItem(hex);
@@ -60,20 +59,21 @@ void HexBoard::createHexRow(int x, int y, int numOfColumns) {
 
 QString HexBoard::getPicture(hexType type) {
     if (type == wood) {
-        return QString("");
+        return QString(":/images/Resources/wood.jpg");
 
     } else if (type == brick) {
-        return QString("");
+        return QString(":/images/Resources/brick.jpg");
+
     } else if (type == wheat) {
-        return QString("");
+        return QString(":/images/Resources/wheat.jpg");
 
     } else if (type == sheep) {
-        return QString("");
+        return QString(":/images/Resources/sheep.jpg");
 
     } else if (type == rock) {
-        return QString("");
+        return QString(":/images/Resources/rock.jpg");
 
-    } else {
+    } else if (1){
         return NULL;
     }
 }

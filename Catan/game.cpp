@@ -9,7 +9,7 @@ Game::Game(QWidget *parent) {
     setFixedSize(1024, 768);
 
     // set up back ground
-    setBackgroundBrush(QBrush(QImage(":/Imeges/C:/Users/Zbook/Downloads/back-ground-light-blue.jpg")));
+    setBackgroundBrush(QBrush(QImage(":/images/Resources/back-ground-light-blue.jpg")));
 
     // set up the scene
     scene = new QGraphicsScene();

@@ -3,7 +3,9 @@
         <file>Resources/brick.jpg</file>
         <file>Resources/Desert.jpg</file>
         <file>Resources/rock.jpg</file>
-        <file>Resources/sheep.jpg</file>
         <file>Resources/wheat.jpg</file>
+        <file>Resources/back-ground-light-blue.jpg</file>
+        <file>Resources/sheep.jpg</file>
+        <file>Resources/wood.jpg</file>
     </qresource>
 </RCC>
