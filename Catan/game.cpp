@@ -15,13 +15,11 @@ Game::Game(QWidget *parent) {
     scene = new QGraphicsScene();
     scene->setSceneRect(0,0 , 1024, 768);
     setScene(scene);
-
-
 }
 
 void Game::start() {
     // test code
     hexBoard = new HexBoard();
-    hexBoard->placeHexes(100, 30 ,8 , 10);
+    hexBoard->placeHexes();
 
 }

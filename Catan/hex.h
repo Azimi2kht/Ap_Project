@@ -7,9 +7,10 @@
 #include <QImage>
 #include <QBrush>
 #include <QPen>
+#include "vertix.h"
 
 enum hexType {
-    wheat, brick, rock, sheep, wood
+    wheat, brick, rock, sheep, wood, sea, desert
 };
 
 class Hex : public QGraphicsPolygonItem {
@@ -22,10 +23,11 @@ public:
     QBrush *getBrush() {return brush;}
 
 protected:
-    QString owner;
     QImage *image;
     QBrush *brush;
     QPolygonF *hexagon;
+    hexType type;
+    QVector<Vertix*> vertixes;
 
 };
 

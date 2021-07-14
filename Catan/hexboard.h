@@ -3,6 +3,8 @@
 
 #include <QList>
 #include <QDebug>
+#include <iostream>
+#include <fstream>
 #include "hex.h"
 
 class HexBoard {
@@ -14,7 +16,7 @@ public:
     QList<Hex*> getHexes();
 
     // public methods
-    void placeHexes(int x, int y, int numberOfRows, int numberOfColumns);
+    void placeHexes();
     Hex* createSetHex(int x, int y, hexType type);
 
 private:
@@ -23,5 +25,22 @@ private:
     QString getPicture(hexType);
 
 };
+
+template<typename T>
+QVector<T> randomItems(QVector<T> iv) {
+    // variables
+    int size = iv.size();
+
+    // set the rand seed
+    srand(time(0));
+
+    while (size > 1) {
+        int index = rand() % size;
+        std::swap(iv[index], iv[size - 1]);
+        size--;
+    }
+    return iv;
+}
+
 
 #endif // HEXBOARD_H

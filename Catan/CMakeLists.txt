@@ -35,6 +35,8 @@ set(PROJECT_SOURCES
         game.cpp
         hexboard.h
         hexboard.cpp
+        vertix.h
+        vertix.cpp
         Resources.qrc
 
 )
