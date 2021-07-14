@@ -130,7 +130,7 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_INCLUDE_BEFORE:PATH=C:/Qt/Tools/QtCreator/share/qtcreator/package-manager/auto-setup.cmake
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Catan-Server
+CMAKE_PROJECT_NAME:STATIC=Server
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.1
@@ -277,6 +277,12 @@ Qt6_DIR:PATH=C:/Qt/6.1.0/mingw81_64/lib/cmake/Qt6
 
 //Path to a library.
 SSL_EAY:FILEPATH=SSL_EAY-NOTFOUND
+
+//Value Computed by CMake
+Server_BINARY_DIR:STATIC=C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug
+
+//Value Computed by CMake
+Server_SOURCE_DIR:STATIC=C:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server
 
 //Path to a program.
 Vulkan_GLSLC_EXECUTABLE:FILEPATH=Vulkan_GLSLC_EXECUTABLE-NOTFOUND

@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Server
+# Project: Catan-Server
 # Configurations: Debug
 # =============================================================================
 
@@ -34,65 +34,6 @@ CONFIGURATION = Debug
 
 include CMakeFiles/rules.ninja
 
-# =============================================================================
-# Object build statements for EXECUTABLE target Server
-
-
-#############################################
-# Order-only phony target for Server
-
-build cmake_object_order_depends_target_Server: phony || Server_autogen Server_autogen/timestamp Server_autogen_timestamp_deps
-
-build CMakeFiles/Server.dir/Server_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__Server_Debug Server_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_Server
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_WIN32_WINNT=0x0601 -D_WIN64
-  DEP_FILE = CMakeFiles\Server.dir\Server_autogen\mocs_compilation.cpp.obj.d
-  FLAGS = -g -Wno-error=invalid-offsetof -std=gnu++17
-  INCLUDES = -I. -IC:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server -IServer_autogen/include -isystem C:/Qt/6.1.0/mingw81_64/include/QtCore -isystem C:/Qt/6.1.0/mingw81_64/include -isystem C:/Qt/6.1.0/mingw81_64/mkspecs/win32-g++ -isystem C:/Qt/6.1.0/mingw81_64/include/QtWidgets -isystem C:/Qt/6.1.0/mingw81_64/include/QtGui -isystem C:/Qt/6.1.0/mingw81_64/include/QtNetwork
-  OBJECT_DIR = CMakeFiles\Server.dir
-  OBJECT_FILE_DIR = CMakeFiles\Server.dir\Server_autogen
-
-build CMakeFiles/Server.dir/main.cpp.obj: CXX_COMPILER__Server_Debug C$:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server/main.cpp || cmake_object_order_depends_target_Server
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_WIN32_WINNT=0x0601 -D_WIN64
-  DEP_FILE = CMakeFiles\Server.dir\main.cpp.obj.d
-  FLAGS = -g -Wno-error=invalid-offsetof -std=gnu++17
-  INCLUDES = -I. -IC:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server -IServer_autogen/include -isystem C:/Qt/6.1.0/mingw81_64/include/QtCore -isystem C:/Qt/6.1.0/mingw81_64/include -isystem C:/Qt/6.1.0/mingw81_64/mkspecs/win32-g++ -isystem C:/Qt/6.1.0/mingw81_64/include/QtWidgets -isystem C:/Qt/6.1.0/mingw81_64/include/QtGui -isystem C:/Qt/6.1.0/mingw81_64/include/QtNetwork
-  OBJECT_DIR = CMakeFiles\Server.dir
-  OBJECT_FILE_DIR = CMakeFiles\Server.dir
-
-build CMakeFiles/Server.dir/myserver.cpp.obj: CXX_COMPILER__Server_Debug C$:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server/myserver.cpp || cmake_object_order_depends_target_Server
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_WIN32_WINNT=0x0601 -D_WIN64
-  DEP_FILE = CMakeFiles\Server.dir\myserver.cpp.obj.d
-  FLAGS = -g -Wno-error=invalid-offsetof -std=gnu++17
-  INCLUDES = -I. -IC:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server -IServer_autogen/include -isystem C:/Qt/6.1.0/mingw81_64/include/QtCore -isystem C:/Qt/6.1.0/mingw81_64/include -isystem C:/Qt/6.1.0/mingw81_64/mkspecs/win32-g++ -isystem C:/Qt/6.1.0/mingw81_64/include/QtWidgets -isystem C:/Qt/6.1.0/mingw81_64/include/QtGui -isystem C:/Qt/6.1.0/mingw81_64/include/QtNetwork
-  OBJECT_DIR = CMakeFiles\Server.dir
-  OBJECT_FILE_DIR = CMakeFiles\Server.dir
-
-build CMakeFiles/Server.dir/mythread.cpp.obj: CXX_COMPILER__Server_Debug C$:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server/mythread.cpp || cmake_object_order_depends_target_Server
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_WIN32_WINNT=0x0601 -D_WIN64
-  DEP_FILE = CMakeFiles\Server.dir\mythread.cpp.obj.d
-  FLAGS = -g -Wno-error=invalid-offsetof -std=gnu++17
-  INCLUDES = -I. -IC:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server -IServer_autogen/include -isystem C:/Qt/6.1.0/mingw81_64/include/QtCore -isystem C:/Qt/6.1.0/mingw81_64/include -isystem C:/Qt/6.1.0/mingw81_64/mkspecs/win32-g++ -isystem C:/Qt/6.1.0/mingw81_64/include/QtWidgets -isystem C:/Qt/6.1.0/mingw81_64/include/QtGui -isystem C:/Qt/6.1.0/mingw81_64/include/QtNetwork
-  OBJECT_DIR = CMakeFiles\Server.dir
-  OBJECT_FILE_DIR = CMakeFiles\Server.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Server
-
-
-#############################################
-# Link the executable Server.exe
-
-build Server.exe: CXX_EXECUTABLE_LINKER__Server_Debug CMakeFiles/Server.dir/Server_autogen/mocs_compilation.cpp.obj CMakeFiles/Server.dir/main.cpp.obj CMakeFiles/Server.dir/myserver.cpp.obj CMakeFiles/Server.dir/mythread.cpp.obj | C$:/Qt/6.1.0/mingw81_64/lib/libQt6Widgets.a C$:/Qt/6.1.0/mingw81_64/lib/libQt6Network.a C$:/Qt/6.1.0/mingw81_64/lib/libQt6Gui.a C$:/Qt/6.1.0/mingw81_64/lib/libQt6Core.a || Server_autogen Server_autogen_timestamp_deps
-  FLAGS = -g
-  LINK_LIBRARIES = C:/Qt/6.1.0/mingw81_64/lib/libQt6Widgets.a  C:/Qt/6.1.0/mingw81_64/lib/libQt6Network.a  C:/Qt/6.1.0/mingw81_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  C:/Qt/6.1.0/mingw81_64/lib/libQt6Core.a  -lmpr  -luserenv  -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Server.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Server.exe
-  TARGET_IMPLIB = libServer.dll.a
-  TARGET_PDB = Server.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -104,6 +45,65 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Catan-Server
+
+
+#############################################
+# Order-only phony target for Catan-Server
+
+build cmake_object_order_depends_target_Catan-Server: phony || Catan-Server_autogen Catan-Server_autogen/timestamp Catan-Server_autogen_timestamp_deps
+
+build CMakeFiles/Catan-Server.dir/Catan-Server_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__Catan-Server_Debug Catan-Server_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_Catan-Server
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_WIN32_WINNT=0x0601 -D_WIN64
+  DEP_FILE = CMakeFiles\Catan-Server.dir\Catan-Server_autogen\mocs_compilation.cpp.obj.d
+  FLAGS = -g -Wno-error=invalid-offsetof -std=gnu++17
+  INCLUDES = -I. -IC:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server -ICatan-Server_autogen/include -isystem C:/Qt/6.1.0/mingw81_64/include/QtCore -isystem C:/Qt/6.1.0/mingw81_64/include -isystem C:/Qt/6.1.0/mingw81_64/mkspecs/win32-g++ -isystem C:/Qt/6.1.0/mingw81_64/include/QtWidgets -isystem C:/Qt/6.1.0/mingw81_64/include/QtGui -isystem C:/Qt/6.1.0/mingw81_64/include/QtNetwork
+  OBJECT_DIR = CMakeFiles\Catan-Server.dir
+  OBJECT_FILE_DIR = CMakeFiles\Catan-Server.dir\Catan-Server_autogen
+
+build CMakeFiles/Catan-Server.dir/main.cpp.obj: CXX_COMPILER__Catan-Server_Debug C$:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server/main.cpp || cmake_object_order_depends_target_Catan-Server
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_WIN32_WINNT=0x0601 -D_WIN64
+  DEP_FILE = CMakeFiles\Catan-Server.dir\main.cpp.obj.d
+  FLAGS = -g -Wno-error=invalid-offsetof -std=gnu++17
+  INCLUDES = -I. -IC:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server -ICatan-Server_autogen/include -isystem C:/Qt/6.1.0/mingw81_64/include/QtCore -isystem C:/Qt/6.1.0/mingw81_64/include -isystem C:/Qt/6.1.0/mingw81_64/mkspecs/win32-g++ -isystem C:/Qt/6.1.0/mingw81_64/include/QtWidgets -isystem C:/Qt/6.1.0/mingw81_64/include/QtGui -isystem C:/Qt/6.1.0/mingw81_64/include/QtNetwork
+  OBJECT_DIR = CMakeFiles\Catan-Server.dir
+  OBJECT_FILE_DIR = CMakeFiles\Catan-Server.dir
+
+build CMakeFiles/Catan-Server.dir/thread.cpp.obj: CXX_COMPILER__Catan-Server_Debug C$:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server/thread.cpp || cmake_object_order_depends_target_Catan-Server
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_WIN32_WINNT=0x0601 -D_WIN64
+  DEP_FILE = CMakeFiles\Catan-Server.dir\thread.cpp.obj.d
+  FLAGS = -g -Wno-error=invalid-offsetof -std=gnu++17
+  INCLUDES = -I. -IC:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server -ICatan-Server_autogen/include -isystem C:/Qt/6.1.0/mingw81_64/include/QtCore -isystem C:/Qt/6.1.0/mingw81_64/include -isystem C:/Qt/6.1.0/mingw81_64/mkspecs/win32-g++ -isystem C:/Qt/6.1.0/mingw81_64/include/QtWidgets -isystem C:/Qt/6.1.0/mingw81_64/include/QtGui -isystem C:/Qt/6.1.0/mingw81_64/include/QtNetwork
+  OBJECT_DIR = CMakeFiles\Catan-Server.dir
+  OBJECT_FILE_DIR = CMakeFiles\Catan-Server.dir
+
+build CMakeFiles/Catan-Server.dir/server.cpp.obj: CXX_COMPILER__Catan-Server_Debug C$:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server/server.cpp || cmake_object_order_depends_target_Catan-Server
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_WIN32_WINNT=0x0601 -D_WIN64
+  DEP_FILE = CMakeFiles\Catan-Server.dir\server.cpp.obj.d
+  FLAGS = -g -Wno-error=invalid-offsetof -std=gnu++17
+  INCLUDES = -I. -IC:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server -ICatan-Server_autogen/include -isystem C:/Qt/6.1.0/mingw81_64/include/QtCore -isystem C:/Qt/6.1.0/mingw81_64/include -isystem C:/Qt/6.1.0/mingw81_64/mkspecs/win32-g++ -isystem C:/Qt/6.1.0/mingw81_64/include/QtWidgets -isystem C:/Qt/6.1.0/mingw81_64/include/QtGui -isystem C:/Qt/6.1.0/mingw81_64/include/QtNetwork
+  OBJECT_DIR = CMakeFiles\Catan-Server.dir
+  OBJECT_FILE_DIR = CMakeFiles\Catan-Server.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Catan-Server
+
+
+#############################################
+# Link the executable Catan-Server.exe
+
+build Catan-Server.exe: CXX_EXECUTABLE_LINKER__Catan-Server_Debug CMakeFiles/Catan-Server.dir/Catan-Server_autogen/mocs_compilation.cpp.obj CMakeFiles/Catan-Server.dir/main.cpp.obj CMakeFiles/Catan-Server.dir/thread.cpp.obj CMakeFiles/Catan-Server.dir/server.cpp.obj | C$:/Qt/6.1.0/mingw81_64/lib/libQt6Widgets.a C$:/Qt/6.1.0/mingw81_64/lib/libQt6Network.a C$:/Qt/6.1.0/mingw81_64/lib/libQt6Gui.a C$:/Qt/6.1.0/mingw81_64/lib/libQt6Core.a || Catan-Server_autogen Catan-Server_autogen_timestamp_deps
+  FLAGS = -g
+  LINK_LIBRARIES = C:/Qt/6.1.0/mingw81_64/lib/libQt6Widgets.a  C:/Qt/6.1.0/mingw81_64/lib/libQt6Network.a  C:/Qt/6.1.0/mingw81_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  C:/Qt/6.1.0/mingw81_64/lib/libQt6Core.a  -lmpr  -luserenv  -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Catan-Server.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Catan-Server.exe
+  TARGET_IMPLIB = libCatan-Server.dll.a
+  TARGET_PDB = Catan-Server.exe.dbg
 
 
 #############################################
@@ -119,42 +119,42 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 
 #############################################
-# Utility command for Server_autogen_timestamp_deps
+# Utility command for Catan-Server_autogen_timestamp_deps
 
-build Server_autogen_timestamp_deps: phony CMakeFiles/Server_autogen_timestamp_deps
-
-
-#############################################
-# Utility command for Server_autogen
-
-build Server_autogen: phony CMakeFiles/Server_autogen Server_autogen/mocs_compilation.cpp Server_autogen/timestamp Server_autogen_timestamp_deps
+build Catan-Server_autogen_timestamp_deps: phony CMakeFiles/Catan-Server_autogen_timestamp_deps
 
 
 #############################################
-# Custom command for Server_autogen\timestamp
+# Utility command for Catan-Server_autogen
 
-build Server_autogen/timestamp: CUSTOM_COMMAND C$:/Qt/6.1.0/mingw81_64/./bin/moc.exe C$:/Qt/6.1.0/mingw81_64/./bin/uic.exe || Server_autogen_timestamp_deps
-  COMMAND = cmd.exe /C "cd /D C:\Users\user\Desktop\Ap_Project\Ap_Project\build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/CMakeFiles/Server_autogen.dir/AutogenInfo.json Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Server_autogen/timestamp"
-  DESC = Automatic MOC and UIC for target Server
-  depfile = C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Server_autogen/deps
+build Catan-Server_autogen: phony CMakeFiles/Catan-Server_autogen Catan-Server_autogen/mocs_compilation.cpp Catan-Server_autogen/timestamp Catan-Server_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for Catan-Server_autogen\timestamp
+
+build Catan-Server_autogen/timestamp: CUSTOM_COMMAND C$:/Qt/6.1.0/mingw81_64/./bin/moc.exe C$:/Qt/6.1.0/mingw81_64/./bin/uic.exe || Catan-Server_autogen_timestamp_deps
+  COMMAND = cmd.exe /C "cd /D C:\Users\user\Desktop\Ap_Project\Ap_Project\build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/CMakeFiles/Catan-Server_autogen.dir/AutogenInfo.json Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Catan-Server_autogen/timestamp"
+  DESC = Automatic MOC and UIC for target Catan-Server
+  depfile = C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Catan-Server_autogen/deps
   restat = 1
 
 
 #############################################
-# Phony custom command for CMakeFiles\Server_autogen_timestamp_deps
+# Phony custom command for CMakeFiles\Catan-Server_autogen_timestamp_deps
 
-build CMakeFiles/Server_autogen_timestamp_deps: phony C$:/Qt/6.1.0/mingw81_64/bin/Qt6Widgets.dll C$:/Qt/6.1.0/mingw81_64/./bin/moc.exe C$:/Qt/6.1.0/mingw81_64/bin/Qt6Core.dll C$:/Qt/6.1.0/mingw81_64/./bin/uic.exe C$:/Qt/6.1.0/mingw81_64/bin/Qt6Network.dll
+build CMakeFiles/Catan-Server_autogen_timestamp_deps: phony C$:/Qt/6.1.0/mingw81_64/bin/Qt6Widgets.dll C$:/Qt/6.1.0/mingw81_64/bin/Qt6Core.dll C$:/Qt/6.1.0/mingw81_64/bin/Qt6Network.dll C$:/Qt/6.1.0/mingw81_64/./bin/moc.exe C$:/Qt/6.1.0/mingw81_64/./bin/uic.exe
 
 
 #############################################
-# Phony custom command for CMakeFiles\Server_autogen
+# Phony custom command for CMakeFiles\Catan-Server_autogen
 
-build CMakeFiles/Server_autogen Server_autogen/mocs_compilation.cpp: phony Server_autogen/timestamp || Server_autogen_timestamp_deps
+build CMakeFiles/Catan-Server_autogen Catan-Server_autogen/mocs_compilation.cpp: phony Catan-Server_autogen/timestamp || Catan-Server_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.
 
-build Server: phony Server.exe
+build Catan-Server: phony Catan-Server.exe
 
 # =============================================================================
 # Folder targets.
@@ -164,7 +164,7 @@ build Server: phony Server.exe
 #############################################
 # Folder: C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug
 
-build all: phony Server.exe
+build all: phony Catan-Server.exe
 
 # =============================================================================
 # Built-in targets
