@@ -7,5 +7,6 @@
         <file>Resources/sheep.png</file>
         <file>Resources/wheat.png</file>
         <file>Resources/wood.png</file>
+        <file>Resources/back-ground-light-blue.jpg</file>
     </qresource>
 </RCC>
