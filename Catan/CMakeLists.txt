@@ -42,8 +42,6 @@ set(PROJECT_SOURCES
         deserttile.cpp
         map.h
         map.cpp
-        match.h
-        match.cpp
         card.h
         card.cpp
         development.h
