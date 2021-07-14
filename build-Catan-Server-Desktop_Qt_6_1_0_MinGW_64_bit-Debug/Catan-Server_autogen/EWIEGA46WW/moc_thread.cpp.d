@@ -2,6 +2,7 @@ D:/Qt\ Projects/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debu
   D:/Qt\ Projects/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Catan-Server_autogen/moc_predefs.h \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/QDebug \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/QThread \
+  C:/Qt/6.1.0/mingw81_64/include/QtCore/QVector \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/qanystringview.h \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/qarraydata.h \
@@ -78,6 +79,7 @@ D:/Qt\ Projects/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debu
   C:/Qt/6.1.0/mingw81_64/include/QtCore/qutf8stringview.h \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/qvariant.h \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/qvarlengtharray.h \
+  C:/Qt/6.1.0/mingw81_64/include/QtCore/qvector.h \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.1.0/mingw81_64/include/QtNetwork/QTcpSocket \
   C:/Qt/6.1.0/mingw81_64/include/QtNetwork/qabstractsocket.h \
