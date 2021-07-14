@@ -29,16 +29,19 @@ find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
 
 set(PROJECT_SOURCES
         main.cpp
-        hex.h
-        hex.cpp
-        game.h
-        game.cpp
-        hexboard.h
-        hexboard.cpp
-        vertix.h
-        vertix.cpp
-        Resources.qrc
-
+        mainwindow.cpp
+        mainwindow.h
+        mainwindow.ui
+        tiles.h
+        tiles.cpp
+        resourcetile.h
+        resourcetile.cpp
+        seatile.h
+        seatile.cpp
+        deserttile.h
+        deserttile.cpp
+        map.h
+        map.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
