@@ -1,7 +1,10 @@
 #include "thread.h"
+#include "dice.h"
+#include "server.h"
 
-Thread::Thread(int ID, QObject* parent)
-        :QThread(parent) {
+
+Thread::Thread(int ID, QObject* parent) : countDice(0),
+        QThread(parent) {
 
     this->socketDescriptor = ID;
 }
@@ -23,19 +26,48 @@ void Thread::run() {
     exec();
 }
 
+void Thread::command(QString data) {
+//    if (data.contains("Dice")) {
+//        Dice dice;
+
+//        int _diceValue = dice.GenerateValue();
+
+//        // considered data foramt : "Playername:Dice:"
+//        if (countDice < 1) {
+
+//            struct Name_Dice temp {.name = data, .diceValue = _diceValue};
+//            Server::firstThreeDice.push_back (temp);
+//        }
+
+//        // add value to diceValue for resourceDistribution :
+//        diceValues.push_back(_diceValue);
+
+//        writeData(_diceValue);
+//        countDice++;
+
+//    }
+//      else if (data.contains("chooseTurn")) {
+
+//    }
+//    else if (data.contains("resourceDistribution")) {
+
+//    } else if (data.contains("Dice")) {
+
+//    } else {
+//        qDebug() << "Incorrect format for command from :" << socketDescriptor;
+//    }
+
+}
+
 void Thread::readyRead() {
 
     QByteArray data = socket->readAll();
 
     qDebug() << socketDescriptor << ":Data: " << data;
 
-    int dataNum = QString(data).toInt();
+    QString strData(data);
 
-    int power = dataNum * dataNum;
-
-    QByteArray data_send = QByteArray::number(power);
-
-    socket->write(data_send);
+    command(strData);
 
 }
 
@@ -46,6 +78,19 @@ void Thread::disconnected() {
 
     exit(0);
 }
+
+void Thread::writeData(QString msg) {
+    QByteArray data_send = QByteArray::fromStdString(msg.toStdString());
+    socket->write(data_send);
+}
+
+void Thread::writeData(int msg) {
+    QByteArray data_send = QByteArray::number(msg);
+    socket->write(data_send);
+}
+
+
+
 
 
 

@@ -34,6 +34,8 @@ set(PROJECT_SOURCES
         thread.cpp
         server.h
         server.cpp
+        dice.cpp
+        dice.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

@@ -4,6 +4,12 @@
 #include <QTcpServer>
 #include <QDebug>
 #include "thread.h"
+#include <QVector>
+
+struct Name_Dice {
+    QString name;
+    int diceValue;
+};
 
 class Server : public QTcpServer
 {
@@ -15,7 +21,11 @@ public:
 protected:
     void incomingConnection(qintptr socketDiscriptor);
 
+
+    friend class Thread;
+
 private:
+    // resources :
     int sheep=20;
     int wood=20;
     int rock=20;
@@ -26,6 +36,10 @@ private:
     int roadBuildCard=2;
     int extraResourcesCard=2;
     int exclusionCard=2;
+
+    // dice values:
+    static QVector<Name_Dice> firstThreeDice;
+
 
 };
 

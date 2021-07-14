@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Thread_t {
-    const uint offsetsAndSize[8];
-    char stringdata0[31];
+    const uint offsetsAndSize[12];
+    char stringdata0[45];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(offsetof(qt_meta_stringdata_Thread_t, stringdata0) + ofs), len 
@@ -32,10 +32,13 @@ static const qt_meta_stringdata_Thread_t qt_meta_stringdata_Thread = {
 QT_MOC_LITERAL(0, 6), // "Thread"
 QT_MOC_LITERAL(7, 9), // "readyRead"
 QT_MOC_LITERAL(17, 0), // ""
-QT_MOC_LITERAL(18, 12) // "disconnected"
+QT_MOC_LITERAL(18, 12), // "disconnected"
+QT_MOC_LITERAL(31, 9), // "writeData"
+QT_MOC_LITERAL(41, 3) // "msg"
 
     },
-    "Thread\0readyRead\0\0disconnected"
+    "Thread\0readyRead\0\0disconnected\0writeData\0"
+    "msg"
 };
 #undef QT_MOC_LITERAL
 
@@ -45,7 +48,7 @@ static const uint qt_meta_data_Thread[] = {
        9,       // revision
        0,       // classname
        0,    0, // classinfo
-       2,   14, // methods
+       4,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -53,12 +56,16 @@ static const uint qt_meta_data_Thread[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   26,    2, 0x0a,    0 /* Public */,
-       3,    0,   27,    2, 0x0a,    1 /* Public */,
+       1,    0,   38,    2, 0x0a,    0 /* Public */,
+       3,    0,   39,    2, 0x0a,    1 /* Public */,
+       4,    1,   40,    2, 0x0a,    2 /* Public */,
+       4,    1,   43,    2, 0x0a,    4 /* Public */,
 
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,    5,
+    QMetaType::Void, QMetaType::Int,    5,
 
        0        // eod
 };
@@ -71,10 +78,11 @@ void Thread::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
         switch (_id) {
         case 0: _t->readyRead(); break;
         case 1: _t->disconnected(); break;
+        case 2: _t->writeData((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 3: _t->writeData((*reinterpret_cast< int(*)>(_a[1]))); break;
         default: ;
         }
     }
-    (void)_a;
 }
 
 const QMetaObject Thread::staticMetaObject = { {
@@ -85,7 +93,7 @@ const QMetaObject Thread::staticMetaObject = { {
     nullptr,
 qt_incomplete_metaTypeArray<qt_meta_stringdata_Thread_t
 
-, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>
+, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<QString, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<int, std::false_type>
 
 
 >,
@@ -112,13 +120,13 @@ int Thread::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 4;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 4)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 2;
+        _id -= 4;
     }
     return _id;
 }
