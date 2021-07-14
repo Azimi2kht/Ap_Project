@@ -42,6 +42,46 @@ set(PROJECT_SOURCES
         deserttile.cpp
         map.h
         map.cpp
+        card.h
+        card.cpp
+        development.h
+        development.cpp  
+        resource.h
+        resource.cpp
+        wheat.h
+        wheat.cpp
+        wood.h
+        wood.cpp
+        sheep.h
+        sheep.cpp
+        rock.h
+        rock.cpp
+        knight.h
+        knight.cpp
+        advance.h
+        advance.cpp
+        point.h
+        point.cpp
+        roadBuild.h
+        roadBuild.cpp
+        extraResource.h
+        extraResource.cpp
+        exclusion.h
+        exclusion.cpp
+        thief.h
+        thief.cpp
+        piece.h
+        piece.cpp
+        road.h
+        road.cpp
+        city.h
+        city.cpp
+        settlement.h
+        settlement.cpp
+        bridge.h
+        bridge.cpp
+        brick.h
+        brick.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

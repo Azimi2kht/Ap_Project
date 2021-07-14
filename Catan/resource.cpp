@@ -1,13 +1,16 @@
 #include "resource.h"
+#include"wood.h"
+#include"rock.h"
+#include"sheep.h"
+#include"brick.h"
+#include"wheat.h"
 
 Resource::Resource()
 {
 
 }
 
-/*
-
-* Resource* Resource::create_obj(ResourceType type) {
+Resource* Resource::create_obj(ResourceType type) {
     if (type == RT_Wood)
         return new Wood();
     else if (type == RT_Brick)
@@ -21,5 +24,3 @@ Resource::Resource()
     else
         return nullptr;
 }
-
-*/
