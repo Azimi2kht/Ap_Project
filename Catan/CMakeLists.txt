@@ -42,6 +42,8 @@ set(PROJECT_SOURCES
         deserttile.cpp
         map.h
         map.cpp
+        match.h
+        match.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
