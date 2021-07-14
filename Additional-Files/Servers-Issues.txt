@@ -1,1 +1,1 @@
-- recieve data line by line (not character by character)
+- recieve data line by line (not character by character) (solved : this is telnets problem in actual program it works fine);
