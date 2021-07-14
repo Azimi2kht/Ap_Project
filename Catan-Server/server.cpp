@@ -20,3 +20,8 @@ void Server::incomingConnection(qintptr socketDiscriptor) {
     connect(thread, SIGNAL(finished()), thread, SLOT(deleteLater()));
     thread->start();
 }
+
+
+void Server::Bank(QString){
+
+}

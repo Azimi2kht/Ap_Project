@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Catan-Server_autogen/EWIEGA46WW/moc_thread.cpp: C:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server/thread.h \
-  C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Catan-Server_autogen/moc_predefs.h \
-=======
-D:/Qt\ Projects/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Catan-Server_autogen/EWIEGA46WW/moc_thread.cpp: D:/Qt\ Projects/Ap_Project/Catan-Server/thread.h \
-  D:/Qt\ Projects/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Catan-Server_autogen/moc_predefs.h \
->>>>>>> d2741feb35eac08fd124149f5ae9732d2e3ed6ce
+C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Server_autogen/EWIEGA46WW/moc_mythread.cpp: C:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server/mythread.h \
+  C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Server_autogen/moc_predefs.h \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/QDebug \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/QThread \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/qalgorithms.h \
