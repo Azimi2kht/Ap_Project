@@ -1,8 +1,8 @@
 #ifndef BRICK_H
 #define BRICK_H
-#include"piece.h"
+#include"resource.h"
 
-class Brick: public Piece
+class Brick: public Resource
 {
 public:
     Brick();

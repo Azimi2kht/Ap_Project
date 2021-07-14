@@ -9,7 +9,7 @@ public:
     Advance();
     void HolderSwap(/* Player &p */);
 private:
-    std::string holder;
+
 };
 
 #endif // ADVANCE_H
