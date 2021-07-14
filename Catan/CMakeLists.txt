@@ -84,6 +84,8 @@ set(PROJECT_SOURCES
         bridge.cpp
         brick.h
         brick.cpp
+        dice.h
+        dice.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
