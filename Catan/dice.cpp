@@ -5,7 +5,7 @@ Dice::Dice()
 
 }
 
-int GenerateValue(){
+int Dice::GenerateValue(){
 	srand(time(0));
 	
 	int dice1 = (int)(1 + rand() % 6);

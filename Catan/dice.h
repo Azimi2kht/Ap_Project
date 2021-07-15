@@ -7,7 +7,8 @@
 class Dice
 {
 public:
-    static int GenerateValue();
+    Dice();
+    int GenerateValue();
 	
 private:
 	int Value;

@@ -84,6 +84,10 @@ set(PROJECT_SOURCES
         brick.cpp
         dice.h
         dice.cpp
+        player.h
+        player.cpp
+        clientsocket.h
+        clientsocket.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

@@ -31,20 +31,15 @@ void Thread::command(QString data) {
         // ok
         Dice dice;
         int _diceValue = dice.GenerateValue();
+
+        // send Dice number
         writeData(_diceValue);
 
-    }
-      else if (data.contains("chooseTurn")) {
-
-    }
-    else if (data.contains("resourceDistribution")) {
-
-    } else if (data.contains("Dice")) {
+    } else if (data.contains("chooseTurn")) {
 
     } else {
         qDebug() << "Incorrect format for command from :" << socketDescriptor;
     }
-
 
 }
 

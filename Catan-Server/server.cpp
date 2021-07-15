@@ -10,6 +10,7 @@ void Server::StartServer() {
     } else {
         qDebug() << "Listening";
     }
+
 }
 
 void Server::incomingConnection(qintptr socketDiscriptor) {
