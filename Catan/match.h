@@ -1,18 +1,16 @@
 #ifndef MATCH_H
 #define MATCH_H
 
-#include "dice.h"
+#include "player.h"
 
 class Match
 {
 public:
     Match();
-
-
-
+    Player *getPlayer() { return player;}
 
 private:
-    int playerNum;
+    Player *player;
 
 };
 

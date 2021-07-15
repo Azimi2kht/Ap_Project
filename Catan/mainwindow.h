@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QPixmap>
 #include <QIcon>
+#include "match.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -21,7 +22,10 @@ private slots:
 
     void on_pushButton_82_clicked();
 
+    void on_pushButton_51_clicked();
+
 private:
     Ui::MainWindow *ui;
+    Match *match;
 };
 #endif // MAINWINDOW_H

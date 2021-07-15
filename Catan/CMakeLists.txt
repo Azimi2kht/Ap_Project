@@ -90,6 +90,8 @@ set(PROJECT_SOURCES
         clientsocket.h
         clientsocket.cpp
         Sea.qrc
+        match.h
+        match.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

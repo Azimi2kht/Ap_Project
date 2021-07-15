@@ -9,5 +9,6 @@
         <file>wood.png</file>
         <file>house-model-1.png</file>
         <file>house-model-2.png</file>
+        <file>road.png</file>
     </qresource>
 </RCC>
