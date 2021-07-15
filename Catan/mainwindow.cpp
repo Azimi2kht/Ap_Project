@@ -13,3 +13,11 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+
+void MainWindow::on_pushButton_82_clicked() {
+    QPixmap pixmap(":/new/prefix1/house-model-1.png");
+    QIcon icon(pixmap);
+
+    ui->pushButton_82->setIcon(icon);
+}
+
