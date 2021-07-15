@@ -26,6 +26,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
+find_package(Qt6 COMPONENTS Network REQUIRED)
 
 set(PROJECT_SOURCES
         main.cpp
@@ -88,6 +89,7 @@ set(PROJECT_SOURCES
         player.cpp
         clientsocket.h
         clientsocket.cpp
+        Sea.qrc
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -108,6 +110,7 @@ else()
 endif()
 
 target_link_libraries(Catan PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(Catan PRIVATE Qt6::Network)
 
 set_target_properties(Catan PROPERTIES
     MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com
