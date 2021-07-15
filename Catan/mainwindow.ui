@@ -3429,6 +3429,19 @@
      <string>Player 3</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton_80">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>140</y>
+      <width>15</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
    <zorder>Sea_21</zorder>
    <zorder>Desert</zorder>
    <zorder>Sea</zorder>
@@ -3661,9 +3674,11 @@
    <zorder>label</zorder>
    <zorder>label_2</zorder>
    <zorder>label_3</zorder>
+   <zorder>pushButton_80</zorder>
   </widget>
  </widget>
  <resources>
+  <include location="Sea.qrc"/>
   <include location="Sea.qrc"/>
  </resources>
  <connections/>
