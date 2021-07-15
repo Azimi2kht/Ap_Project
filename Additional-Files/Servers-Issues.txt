@@ -1,1 +1,4 @@
-- recieve data line by line (not character by character) (solved : this is telnets problem in actual program it works fine);
+- Recieve data line by line (not character by character) (solved : this is telnets problem in actual program it works fine);
+- How should server know how resources are distributed? (solved : no need to do this .Will be handled in Player! ).
+- How to send info to specific socket? (How to specify the Match socket?) (using two sockets one on port 1234 and the other on port 8080 (for Match))
+ 
