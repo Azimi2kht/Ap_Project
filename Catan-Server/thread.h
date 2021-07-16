@@ -6,12 +6,17 @@
 #include <QDebug>
 #include <QVector>
 
+enum COLOR {
+    Green, Red, Blue, Yellow
+};
+
 class Thread : public QThread{
 Q_OBJECT
 public:
     explicit Thread(int ID, QObject *parent = 0);
     void run();
-
+    void setColor(COLOR _color) {playerColor = _color;}
+    QString colorToStr(COLOR color);
 
 private:
     QTcpSocket *socket;
@@ -19,6 +24,7 @@ private:
     void command(QString data);
     QVector<int> diceValues;
     int countDice;
+    COLOR playerColor;
 
 public slots:
     void readyRead();

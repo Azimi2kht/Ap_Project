@@ -6,7 +6,10 @@
 #include <QPushButton>
 #include <QString>
 #include "clientsocket.h"
-#include "player.h"
+
+enum COLOR {
+    Red, Green, Blue, Yellow
+};
 
 class Player {
 public:
@@ -27,14 +30,12 @@ public:
     void decreaseBrick() { numOfBrick--;}
     void decreaseWood() { numOfWood--;}
 
-
-
-
 private:
     QVector<QPushButton*> pieces;
     QString name;
     int point;
     ClientSocket clientSocket;
+    COLOR playerColor;
 
     // how player gets the resources ??!! TODO
     // resources

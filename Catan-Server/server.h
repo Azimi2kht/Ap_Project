@@ -40,6 +40,11 @@ private:
     // dice values:
     static QVector<Name_Dice> firstThreeDice;
 
+    // Number of threads
+    int numOfThreads;
+
+    // get the color from numberOfThreads
+    COLOR getColor(int numOfThead);
 
 };
 

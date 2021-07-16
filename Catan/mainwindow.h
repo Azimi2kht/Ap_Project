@@ -15,8 +15,11 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
+    // constructors
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+
+
 
 private slots:
 
@@ -27,5 +30,11 @@ private slots:
 private:
     Ui::MainWindow *ui;
     Match *match;
+
+    // methods
+    void setPictureForHouse(QString address);
+    void setPictureForRoad(QString address);
+
+
 };
 #endif // MAINWINDOW_H

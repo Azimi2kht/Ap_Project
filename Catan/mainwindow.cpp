@@ -16,12 +16,20 @@ MainWindow::~MainWindow() {
 
 void MainWindow::on_pushButton_82_clicked() {
 
+    setPictureForHouse(":/new/prefix1/house-model-green.png");
+}
 
+void MainWindow::on_pushButton_51_clicked() {
+    setPictureForRoad(":/new/prefix1/road-red.png");
+}
+
+void MainWindow::setPictureForHouse(QString address) {
     if (match->getPlayer()->getNumOfWood() >= 1 && match->getPlayer()->getNumOfBrick() >= 1
             && match->getPlayer()->getNumOfSheep() >= 1 && match->getPlayer()->getNumOfWheat() >= 1) {
-        QPixmap pixmap(":/new/prefix1/house-model-1.png");
-        QIcon icon(pixmap);
 
+        // set picture
+        QPixmap pixmap(address);
+        QIcon icon(pixmap);
         ui->pushButton_82->setIcon(icon);
 
         // decrease
@@ -32,16 +40,18 @@ void MainWindow::on_pushButton_82_clicked() {
     }
 }
 
-void MainWindow::on_pushButton_51_clicked() {
+void MainWindow::setPictureForRoad(QString address) {
     if (match->getPlayer()->getNumOfBrick() >= 1 && match->getPlayer()->getNumOfWood() >=1) {
-        QPixmap pixmap(":/new/prefix1/road.png");
-        QIcon icon(pixmap);
 
+        // set picture
+        QPixmap pixmap(address);
+        QIcon icon(pixmap);
         ui->pushButton_51->setIcon(icon);
 
         // decrease
         match->getPlayer()->decreaseWood();
         match->getPlayer()->decreaseBrick();
     }
+
 }
 

@@ -1,6 +1,5 @@
 #include "clientsocket.h"
 
-
 QString ClientSocket::Connect(QString host, quint16 port,QString data ) {
     socket = new QTcpSocket(this);
 
@@ -17,11 +16,10 @@ QString ClientSocket::Connect(QString host, quint16 port,QString data ) {
         socket->waitForBytesWritten(1000);
         socket->waitForReadyRead(3000);
 
-        qDebug() << "Reading: " << socket->bytesAvailable();
-
         QString recieved = socket->readAll();
 
         socket->close();
+
         return recieved;
     } else {
         qDebug() << "Not Connected";

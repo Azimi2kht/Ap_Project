@@ -26,14 +26,31 @@ void Thread::run() {
     exec();
 }
 
+QString Thread::colorToStr(COLOR color)
+{
+    if (color == Red)
+        return "Red";
+    else if (color == Blue)
+        return "Blue";
+    else if (color == Green)
+        return "Green";
+    else if (color == Yellow)
+        return "Yellow";
+
+}
+
 void Thread::command(QString data) {
     if (data.contains("Dice")) {
         // ok
-        Dice dice;
-        int _diceValue = dice.GenerateValue();
+//        Dice dice;
+//        int _diceValue = dice.GenerateValue();
 
         // send Dice number
-        writeData(_diceValue);
+        writeData(3);
+
+    } else if (data.contains("GetColor")) {
+        QString color = colorToStr(playerColor);
+        writeData(color);
 
     } else if (data.contains("chooseTurn")) {
 
