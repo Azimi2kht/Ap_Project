@@ -1,5 +1,6 @@
 #include "ui.h"
 #include "ui_ui.h"
+#include "dice.h"
 
 
 UI::UI(QWidget *parent)
@@ -12,5 +13,13 @@ UI::UI(QWidget *parent)
 UI::~UI()
 {
     delete ui;
+}
+
+
+void UI::on_RollDice_clicked()
+{
+    Dice Roll;
+    QString Rolled = QString::number(Roll.GenerateValue());
+    ui->RolledNumber->setText(Rolled);
 }
 

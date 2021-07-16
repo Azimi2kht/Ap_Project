@@ -15,6 +15,9 @@ public:
     UI(QWidget *parent = nullptr);
     ~UI();
 
+private slots:
+    void on_RollDice_clicked();
+
 private:
     Ui::UI *ui;
 };
