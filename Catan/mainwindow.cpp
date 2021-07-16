@@ -26,6 +26,7 @@ void MainWindow::on_pushButton_51_clicked() {
     }
 }
 
+
 void MainWindow::on_pushButton_82_clicked() {
 
     if (match->getPlayer()->getNumOfWood() >= 1 && match->getPlayer()->getNumOfBrick() >= 1
@@ -2784,11 +2785,10 @@ void MainWindow::on_pushButton_73_clicked()
 void MainWindow::setPictureForHouse(QString address)
 {
     // check requirements for building
+
     if (match->getPlayer()->getNumOfWood() >= 1 && match->getPlayer()->getNumOfBrick() >= 1
             && match->getPlayer()->getNumOfSheep() >= 1 && match->getPlayer()->getNumOfWheat() >= 1) {
-
-        // set the picture
-        QPixmap pixmap(address);
+        QPixmap pixmap(":/new/prefix1/house-model-1.png");
         QIcon icon(pixmap);
 
         ui->pushButton_82->setIcon(icon);
@@ -2800,24 +2800,6 @@ void MainWindow::setPictureForHouse(QString address)
         match->getPlayer()->decreaseWheat();
     }
 }
-
-void MainWindow::setPictureForRoad(QString address)
-{
-    // check requirements for building road
-    if (match->getPlayer()->getNumOfBrick() >= 1 && match->getPlayer()->getNumOfWood() >=1) {
-
-        // set picture
-        QPixmap pixmap(address);
-        QIcon icon(pixmap);
-
-        ui->pushButton_51->setIcon(icon);
-
-        // decrease
-        match->getPlayer()->decreaseWood();
-        match->getPlayer()->decreaseBrick();
-    }
-}
-
 
 void MainWindow::setPictureForHouse()
 {
