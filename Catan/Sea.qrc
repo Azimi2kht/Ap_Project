@@ -8,11 +8,13 @@
         <file>wheat.png</file>
         <file>wood.png</file>
         <file>house-model-blue.png</file>
-        <file>house-model-orange.png</file>
         <file>house-model-green.png</file>
         <file>house-model-purple.png</file>
         <file>road-blue.png</file>
         <file>road-green.png</file>
         <file>road-red.png</file>
+        <file>road-yellow.png</file>
+        <file>house-model-yellow.png</file>
+        <file>house-model-red.png</file>
     </qresource>
 </RCC>

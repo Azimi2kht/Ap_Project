@@ -22,6 +22,7 @@ public:
     int getNumOfBrick() {return numOfBrick;}
     int getNumOfWheat() {return numOfWheat;}
     int getNumOfRock() {return numOfRock;}
+    COLOR getPlayerColor() {return playerColor;}
 
     // setter
     void decreaseSheep() { numOfSheep--;}

@@ -362,6 +362,11 @@ private:
     // methods
     void setPictureForHouse(QString address);
     void setPictureForRoad(QString address);
+    void setPictureForHouse();
+    void setPictureForRoad();
+
+    QString getPictureHouseType();
+    QString getPictureRoadType();
 
 
 };

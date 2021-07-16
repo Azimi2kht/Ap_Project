@@ -2818,3 +2818,79 @@ void MainWindow::setPictureForRoad(QString address)
     }
 }
 
+
+void MainWindow::setPictureForHouse()
+{
+    QString address = getPictureHouseType();
+    // check requirements for building
+    if (match->getPlayer()->getNumOfWood() >= 1 && match->getPlayer()->getNumOfBrick() >= 1
+            && match->getPlayer()->getNumOfSheep() >= 1 && match->getPlayer()->getNumOfWheat() >= 1) {
+
+        // set the picture
+        QPixmap pixmap(address);
+        QIcon icon(pixmap);
+
+        ui->pushButton_82->setIcon(icon);
+
+        // decrease
+        match->getPlayer()->decreaseBrick();
+        match->getPlayer()->decreaseSheep();
+        match->getPlayer()->decreaseWood();
+        match->getPlayer()->decreaseWheat();
+    }
+}
+
+void MainWindow::setPictureForRoad()
+{
+    QString address = getPictureRoadType();
+    // check requirements for building road
+    if (match->getPlayer()->getNumOfBrick() >= 1 && match->getPlayer()->getNumOfWood() >=1) {
+
+        // set picture
+        QPixmap pixmap(address);
+        QIcon icon(pixmap);
+
+        ui->pushButton_51->setIcon(icon);
+
+        // decrease
+        match->getPlayer()->decreaseWood();
+        match->getPlayer()->decreaseBrick();
+    }
+}
+
+QString MainWindow::getPictureHouseType() {
+    if (match->getPlayer()->getPlayerColor() == Red) {
+        return ":/new/prefix1/house-model-red.png";
+
+    } else if (match->getPlayer()->getPlayerColor() == Green) {
+        return ":/new/prefix1/house-model-green.png";
+
+    } else if (match->getPlayer()->getPlayerColor() == Blue) {
+        return ":/new/prefix1/house-model-blue.png";
+
+    } else if (match->getPlayer()->getPlayerColor() == Yellow) {
+        return ":/new/prefix1/house-model-yellow.png";
+
+    } else
+        return "-1";
+}
+
+QString MainWindow::getPictureRoadType() {
+    if (match->getPlayer()->getPlayerColor() == Red) {
+        return ":/new/prefix1/road-red.png";
+
+    } else if (match->getPlayer()->getPlayerColor() == Green) {
+         return ":/new/prefix1/road-green.png";
+
+    } else if (match->getPlayer()->getPlayerColor() == Blue) {
+         return ":/new/prefix1/road-blue.png";
+
+    } else if (match->getPlayer()->getPlayerColor() == Yellow) {
+         return ":/new/prefix1/road-yellow.png";
+
+    } else
+        return "-1";
+
+}
+
+
