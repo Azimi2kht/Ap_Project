@@ -1098,4 +1098,10 @@ QString MainWindow::getPictureRoadType() {
 
 }
 
+void MainWindow::on_RollDice_clicked() {
+
+    Dice Roll;
+    QString Rolled = QString::number(Roll.GenerateValue());
+    ui->RolledNumber->setText(Rolled);
+}
 

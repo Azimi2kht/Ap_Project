@@ -5,6 +5,7 @@
 #include <QPixmap>
 #include <QIcon>
 #include "match.h"
+#include "dice.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -354,6 +355,10 @@ private slots:
     void on_pushButton_65_clicked();
 
     void on_pushButton_73_clicked();
+
+
+
+    void on_RollDice_clicked();
 
 private:
     Ui::MainWindow *ui;
