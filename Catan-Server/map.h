@@ -4,10 +4,11 @@
 #include <QVector>
 #include <ctime>
 
-class Map
-{
+class Map {
 public:
     Map();
+
+QVector<int> chanceNumbers;
 };
 
 template<typename T>
