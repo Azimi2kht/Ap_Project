@@ -41,7 +41,7 @@ QString Thread::colorToStr(COLOR color)
 
 void Thread::command(QString data) {
     if (data.contains("Dice")) {
-        // ok
+        // generate diveValue;
         Dice dice;
         int _diceValue = dice.GenerateValue();
 
@@ -53,6 +53,8 @@ void Thread::command(QString data) {
         writeData(color);
 
     } else if (data.contains("chooseTurn")) {
+
+    } else if (data.contains("RandomNumbers")) {
 
     } else {
         qDebug() << "Incorrect format for command from :" << socketDescriptor;
