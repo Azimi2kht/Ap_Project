@@ -31,6 +31,8 @@ public:
     void decreaseBrick() { numOfBrick--;}
     void decreaseWood() { numOfWood--;}
 
+    int diceButton();
+
 private:
     QVector<QPushButton*> pieces;
     QString name;
@@ -46,8 +48,6 @@ private:
     int numOfRock;
     int numOfWood;
 
-public slots:
-    void on_diceButton_clicked();
 };
 
 #endif // PLAYER_H

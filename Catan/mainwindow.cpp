@@ -1099,9 +1099,11 @@ QString MainWindow::getPictureRoadType() {
 }
 
 void MainWindow::on_RollDice_clicked() {
+    // get dice value from server
+    int diceValue = match->getPlayer()->diceButton();
 
-    Dice Roll;
-    QString Rolled = QString::number(Roll.GenerateValue());
+    // set text value
+    QString Rolled = QString::number(diceValue);
     ui->RolledNumber->setText(Rolled);
-}
 
+}

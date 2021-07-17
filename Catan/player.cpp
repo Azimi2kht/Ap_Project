@@ -25,9 +25,10 @@ void Player::addPiece(QPushButton *_button) {
     point++;
 }
 
-void Player::on_diceButton_clicked()
-{
+int Player::diceButton() {
     ClientSocket w;
-    //QString request("Dice:");
-   // QString recieved = w.Connect("127.0.0.1", 1234, request);
+    QString request("Dice:");
+    QString recieved = w.Connect("127.0.0.1", 1234, request);
+
+    return recieved.toInt();
 }

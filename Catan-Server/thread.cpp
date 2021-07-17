@@ -42,11 +42,11 @@ QString Thread::colorToStr(COLOR color)
 void Thread::command(QString data) {
     if (data.contains("Dice")) {
         // ok
-//        Dice dice;
-//        int _diceValue = dice.GenerateValue();
+        Dice dice;
+        int _diceValue = dice.GenerateValue();
 
         // send Dice number
-        writeData(3);
+        writeData(_diceValue);
 
     } else if (data.contains("GetColor")) {
         QString color = colorToStr(playerColor);
