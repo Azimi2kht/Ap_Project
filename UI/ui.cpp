@@ -23,3 +23,5 @@ void UI::on_RollDice_clicked()
     ui->RolledNumber->setText(Rolled);
 }
 
+
+

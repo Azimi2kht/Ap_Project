@@ -18,6 +18,8 @@ public:
 private slots:
     void on_RollDice_clicked();
 
+    void on_pushButton_50_clicked();
+
 private:
     Ui::UI *ui;
 };
