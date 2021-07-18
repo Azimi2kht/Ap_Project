@@ -1317,3 +1317,471 @@ void MainWindow::on_RollDice_clicked() {
     ui->RolledNumber->setText(Rolled);
 
 }
+
+void MainWindow::on_pushButton_238_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_187_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_155_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_158_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_162_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_161_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_164_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_168_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_174_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_178_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_197_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_185_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_177_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_204_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_188_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_202_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_198_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_208_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_199_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_192_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_206_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_194_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_207_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_201_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_239_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_235_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_245_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_244_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_240_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_242_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_243_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_224_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_212_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_213_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_241_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_236_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_223_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_228_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_230_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_229_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_220_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_211_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_217_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_234_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_226_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_216_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_231_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_219_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_233_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_214_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_218_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_209_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_210_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_237_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_232_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_225_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_227_clicked()
+{
+    setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_221_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_222_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_190_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_203_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_200_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_186_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_215_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_184_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_171_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_172_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_181_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_196_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_195_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_189_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_205_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_183_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_191_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_179_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_180_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_182_clicked()
+{
+   setPictureForRoad();
+}
+
+
+void MainWindow::on_pushButton_193_clicked()
+{
+   setPictureForRoad();
+}
+

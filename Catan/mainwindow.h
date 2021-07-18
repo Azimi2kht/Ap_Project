@@ -365,6 +365,162 @@ private slots:
 
     void on_RollDice_clicked();
 
+    void on_pushButton_238_clicked();
+
+    void on_pushButton_187_clicked();
+
+    void on_pushButton_155_clicked();
+
+    void on_pushButton_158_clicked();
+
+    void on_pushButton_162_clicked();
+
+    void on_pushButton_161_clicked();
+
+    void on_pushButton_164_clicked();
+
+    void on_pushButton_168_clicked();
+
+    void on_pushButton_174_clicked();
+
+    void on_pushButton_178_clicked();
+
+    void on_pushButton_197_clicked();
+
+    void on_pushButton_185_clicked();
+
+    void on_pushButton_177_clicked();
+
+    void on_pushButton_204_clicked();
+
+    void on_pushButton_188_clicked();
+
+    void on_pushButton_202_clicked();
+
+    void on_pushButton_198_clicked();
+
+    void on_pushButton_208_clicked();
+
+    void on_pushButton_199_clicked();
+
+    void on_pushButton_192_clicked();
+
+    void on_pushButton_206_clicked();
+
+    void on_pushButton_194_clicked();
+
+    void on_pushButton_207_clicked();
+
+    void on_pushButton_201_clicked();
+
+    void on_pushButton_239_clicked();
+
+    void on_pushButton_235_clicked();
+
+    void on_pushButton_245_clicked();
+
+    void on_pushButton_244_clicked();
+
+    void on_pushButton_240_clicked();
+
+    void on_pushButton_242_clicked();
+
+    void on_pushButton_243_clicked();
+
+    void on_pushButton_224_clicked();
+
+    void on_pushButton_212_clicked();
+
+    void on_pushButton_213_clicked();
+
+    void on_pushButton_241_clicked();
+
+    void on_pushButton_236_clicked();
+
+    void on_pushButton_223_clicked();
+
+    void on_pushButton_228_clicked();
+
+    void on_pushButton_230_clicked();
+
+    void on_pushButton_229_clicked();
+
+    void on_pushButton_220_clicked();
+
+    void on_pushButton_211_clicked();
+
+    void on_pushButton_217_clicked();
+
+    void on_pushButton_234_clicked();
+
+    void on_pushButton_226_clicked();
+
+    void on_pushButton_216_clicked();
+
+    void on_pushButton_231_clicked();
+
+    void on_pushButton_219_clicked();
+
+    void on_pushButton_233_clicked();
+
+    void on_pushButton_214_clicked();
+
+    void on_pushButton_218_clicked();
+
+    void on_pushButton_209_clicked();
+
+    void on_pushButton_210_clicked();
+
+    void on_pushButton_237_clicked();
+
+    void on_pushButton_232_clicked();
+
+    void on_pushButton_225_clicked();
+
+    void on_pushButton_227_clicked();
+
+    void on_pushButton_221_clicked();
+
+    void on_pushButton_222_clicked();
+
+    void on_pushButton_190_clicked();
+
+    void on_pushButton_203_clicked();
+
+    void on_pushButton_200_clicked();
+
+    void on_pushButton_186_clicked();
+
+    void on_pushButton_215_clicked();
+
+    void on_pushButton_184_clicked();
+
+    void on_pushButton_171_clicked();
+
+    void on_pushButton_172_clicked();
+
+    void on_pushButton_181_clicked();
+
+    void on_pushButton_196_clicked();
+
+    void on_pushButton_195_clicked();
+
+    void on_pushButton_189_clicked();
+
+    void on_pushButton_205_clicked();
+
+    void on_pushButton_183_clicked();
+
+    void on_pushButton_191_clicked();
+
+    void on_pushButton_179_clicked();
+
+    void on_pushButton_180_clicked();
+
+    void on_pushButton_182_clicked();
+
+    void on_pushButton_193_clicked();
+
 private:
     Ui::MainWindow *ui;
     Match *match;
