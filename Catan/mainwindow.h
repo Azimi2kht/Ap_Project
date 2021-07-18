@@ -20,7 +20,10 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-
+    // public methods
+    void disableAll();
+    void setChanceNumbers();
+    QVector<int> deFormatWith(QString str, QChar delimiter);
 
 private slots:
 
@@ -355,6 +358,8 @@ private slots:
     void on_pushButton_65_clicked();
 
     void on_pushButton_73_clicked();
+
+    // new slots :
 
 
 

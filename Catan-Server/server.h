@@ -5,7 +5,6 @@
 #include <QDebug>
 #include "thread.h"
 #include <QVector>
-#include "map.h"
 
 struct Name_Dice {
     QString name;
@@ -37,9 +36,6 @@ private:
     int roadBuildCard=2;
     int extraResourcesCard=2;
     int exclusionCard=2;
-
-    // map
-    Map *map;
 
     // dice values:
     static QVector<Name_Dice> firstThreeDice;

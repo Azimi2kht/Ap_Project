@@ -6,12 +6,222 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow) {
     ui->setupUi(this);
+    disableAll();
     match = new Match();
+    setChanceNumbers();
 }
 
 MainWindow::~MainWindow() {
     delete ui;
 }
+
+void MainWindow::disableAll() {
+    ui->pushButton_82->setEnabled(false);
+    ui->pushButton_51->setEnabled(false);
+    ui->pushButton_81->setEnabled(false);
+    ui->pushButton_79->setEnabled(false);
+    ui->pushButton_78->setEnabled(false);
+    ui->pushButton_77->setEnabled(false);
+    ui->pushButton_76->setEnabled(false);
+    ui->pushButton_75->setEnabled(false);
+    ui->pushButton_74->setEnabled(false);
+    ui->pushButton_2->setEnabled(false);
+    ui->pushButton_96->setEnabled(false);
+    ui->pushButton_95->setEnabled(false);
+    ui->pushButton_84->setEnabled(false);
+    ui->pushButton_94->setEnabled(false);
+    ui->pushButton_86->setEnabled(false);
+    ui->pushButton_92->setEnabled(false);
+    ui->pushButton_88->setEnabled(false);
+    ui->pushButton_85->setEnabled(false);
+    ui->pushButton_87->setEnabled(false);
+    ui->pushButton_93->setEnabled(false);
+    ui->pushButton_91->setEnabled(false);
+    ui->pushButton_90->setEnabled(false);
+    ui->pushButton_89->setEnabled(false);
+    ui->pushButton_97->setEnabled(false);
+    ui->pushButton_98->setEnabled(false);
+    ui->pushButton_99->setEnabled(false);
+    ui->pushButton_100->setEnabled(false);
+    ui->pushButton_101->setEnabled(false);
+    ui->pushButton_102->setEnabled(false);
+    ui->pushButton_103->setEnabled(false);
+    ui->pushButton_104->setEnabled(false);
+    ui->pushButton_106->setEnabled(false);
+    ui->pushButton_107->setEnabled(false);
+    ui->pushButton_108->setEnabled(false);
+    ui->pushButton_109->setEnabled(false);
+    ui->pushButton_110->setEnabled(false);
+    ui->pushButton_124->setEnabled(false);
+    ui->pushButton_123->setEnabled(false);
+    ui->pushButton_122->setEnabled(false);
+    ui->pushButton_121->setEnabled(false);
+    ui->pushButton_120->setEnabled(false);
+    ui->pushButton_119->setEnabled(false);
+    ui->pushButton_118->setEnabled(false);
+    ui->pushButton_117->setEnabled(false);
+    ui->pushButton_116->setEnabled(false);
+    ui->pushButton_115->setEnabled(false);
+    ui->pushButton_114->setEnabled(false);
+    ui->pushButton_113->setEnabled(false);
+    ui->pushButton_112->setEnabled(false);
+    ui->pushButton_111->setEnabled(false);
+    ui->pushButton_125->setEnabled(false);
+    ui->pushButton_126->setEnabled(false);
+    ui->pushButton_127->setEnabled(false);
+    ui->pushButton_128->setEnabled(false);
+    ui->pushButton_129->setEnabled(false);
+    ui->pushButton_130->setEnabled(false);
+    ui->pushButton_132->setEnabled(false);
+    ui->pushButton_131->setEnabled(false);
+    ui->pushButton_133->setEnabled(false);
+    ui->pushButton_134->setEnabled(false);
+    ui->pushButton_135->setEnabled(false);
+    ui->pushButton_136->setEnabled(false);
+    ui->pushButton_137->setEnabled(false);
+    ui->pushButton_173->setEnabled(false);
+    ui->pushButton_154->setEnabled(false);
+    ui->pushButton_163->setEnabled(false);
+    ui->pushButton_165->setEnabled(false);
+    ui->pushButton_157->setEnabled(false);
+    ui->pushButton_153->setEnabled(false);
+    ui->pushButton_151->setEnabled(false);
+    ui->pushButton_141->setEnabled(false);
+    ui->pushButton_167->setEnabled(false);
+    ui->pushButton_146->setEnabled(false);
+    ui->pushButton_144->setEnabled(false);
+    ui->pushButton_148->setEnabled(false);
+    ui->pushButton_175->setEnabled(false);
+    ui->pushButton_170->setEnabled(false);
+    ui->pushButton_166->setEnabled(false);
+    ui->pushButton_169->setEnabled(false);
+    ui->pushButton_142->setEnabled(false);
+    ui->pushButton_150->setEnabled(false);
+    ui->pushButton_80->setEnabled(false);
+    ui->pushButton_160->setEnabled(false);
+    ui->pushButton_176->setEnabled(false);
+    ui->pushButton_138->setEnabled(false);
+    ui->pushButton_139->setEnabled(false);
+    ui->pushButton_156->setEnabled(false);
+    ui->pushButton_159->setEnabled(false);
+    ui->pushButton_152->setEnabled(false);
+    ui->pushButton_143->setEnabled(false);
+    ui->pushButton_140->setEnabled(false);
+    ui->pushButton_149->setEnabled(false);
+    ui->pushButton_147->setEnabled(false);
+    ui->pushButton_145->setEnabled(false);
+    ui->pushButton_52->setEnabled(false);
+    ui->pushButton_26->setEnabled(false);
+    ui->pushButton_28->setEnabled(false);
+    ui->pushButton_29->setEnabled(false);
+    ui->pushButton_27->setEnabled(false);
+    ui->pushButton_50->setEnabled(false);
+    ui->pushButton_53->setEnabled(false);
+    ui->pushButton_44->setEnabled(false);
+    ui->pushButton_43->setEnabled(false);
+    ui->pushButton_9->setEnabled(false);
+    ui->pushButton_7->setEnabled(false);
+    ui->pushButton_5->setEnabled(false);
+    ui->pushButton_6->setEnabled(false);
+    ui->pushButton_72->setEnabled(false);
+    ui->pushButton_54->setEnabled(false);
+    ui->pushButton_45->setEnabled(false);
+    ui->pushButton_46->setEnabled(false);
+    ui->pushButton_10->setEnabled(false);
+    ui->pushButton_8->setEnabled(false);
+    ui->pushButton_4->setEnabled(false);
+    ui->pushButton_3->setEnabled(false);
+    ui->pushButton->setEnabled(false);
+    ui->pushButton_71->setEnabled(false);
+    ui->pushButton_55->setEnabled(false);
+    ui->pushButton_47->setEnabled(false);
+    ui->pushButton_11->setEnabled(false);
+    ui->pushButton_25->setEnabled(false);
+    ui->pushButton_23->setEnabled(false);
+    ui->pushButton_24->setEnabled(false);
+    ui->pushButton_21->setEnabled(false);
+    ui->pushButton_20->setEnabled(false);
+    ui->pushButton_70->setEnabled(false);
+    ui->pushButton_56->setEnabled(false);
+    ui->pushButton_48->setEnabled(false);
+    ui->pushButton_49->setEnabled(false);
+    ui->pushButton_12->setEnabled(false);
+    ui->pushButton_19->setEnabled(false);
+    ui->pushButton_18->setEnabled(false);
+    ui->pushButton_17->setEnabled(false);
+    ui->pushButton_22->setEnabled(false);
+    ui->pushButton_58->setEnabled(false);
+    ui->pushButton_41->setEnabled(false);
+    ui->pushButton_40->setEnabled(false);
+    ui->pushButton_13->setEnabled(false);
+    ui->pushButton_14->setEnabled(false);
+    ui->pushButton_15->setEnabled(false);
+    ui->pushButton_16->setEnabled(false);
+    ui->pushButton_68->setEnabled(false);
+    ui->pushButton_57->setEnabled(false);
+    ui->pushButton_42->setEnabled(false);
+    ui->pushButton_39->setEnabled(false);
+    ui->pushButton_32->setEnabled(false);
+    ui->pushButton_31->setEnabled(false);
+    ui->pushButton_33->setEnabled(false);
+    ui->pushButton_30->setEnabled(false);
+    ui->pushButton_67->setEnabled(false);
+    ui->pushButton_59->setEnabled(false);
+    ui->pushButton_60->setEnabled(false);
+    ui->pushButton_38->setEnabled(false);
+    ui->pushButton_37->setEnabled(false);
+    ui->pushButton_35->setEnabled(false);
+    ui->pushButton_36->setEnabled(false);
+    ui->pushButton_34->setEnabled(false);
+    ui->pushButton_66->setEnabled(false);
+    ui->pushButton_61->setEnabled(false);
+    ui->pushButton_62->setEnabled(false);
+    ui->pushButton_63->setEnabled(false);
+    ui->pushButton_64->setEnabled(false);
+    ui->pushButton_65->setEnabled(false);
+    ui->pushButton_73->setEnabled(false);
+}
+
+void MainWindow::setChanceNumbers() {
+    // get numbers formatted
+    QString chanceNumbersStr = match->getPlayer()->sendToServer(QString("ChanceNumbers"));
+    // deformat the numbers string
+    QStringList chanceNumsList = chanceNumbersStr.split(".");
+
+    // setting the lineEdits numbers
+    ui->TileNumber->setText(chanceNumsList[0]);
+    ui->TileNumber_2->setText(chanceNumsList[1]);
+    ui->TileNumber_3->setText(chanceNumsList[2]);
+    ui->TileNumber_4->setText(chanceNumsList[3]);
+    ui->TileNumber_5->setText(chanceNumsList[4]);
+    ui->TileNumber_6->setText(chanceNumsList[5]);
+    ui->TileNumber_7->setText(chanceNumsList[6]);
+    ui->TileNumber_8->setText(chanceNumsList[7]);
+    ui->TileNumber_9->setText(chanceNumsList[8]);
+    ui->TileNumber_10->setText(chanceNumsList[9]);
+    ui->TileNumber_11->setText(chanceNumsList[10]);
+    ui->TileNumber_12->setText(chanceNumsList[11]);
+    ui->TileNumber_13->setText(chanceNumsList[12]);
+    ui->TileNumber_14->setText(chanceNumsList[13]);
+    ui->TileNumber_15->setText(chanceNumsList[14]);
+    ui->TileNumber_16->setText(chanceNumsList[15]);
+    ui->TileNumber_17->setText(chanceNumsList[16]);
+    ui->TileNumber_18->setText(chanceNumsList[17]);
+    ui->TileNumber_19->setText(chanceNumsList[18]);
+    ui->TileNumber_20->setText(chanceNumsList[19]);
+    ui->TileNumber_21->setText(chanceNumsList[20]);
+    ui->TileNumber_22->setText(chanceNumsList[21]);
+    ui->TileNumber_23->setText(chanceNumsList[22]);
+    ui->TileNumber_24->setText(chanceNumsList[23]);
+    ui->TileNumber_25->setText(chanceNumsList[24]);
+    ui->TileNumber_26->setText(chanceNumsList[25]);
+    ui->TileNumber_27->setText(chanceNumsList[26]);
+    ui->TileNumber_28->setText(chanceNumsList[27]);
+
+
+}
+
+
 
 void MainWindow::on_pushButton_51_clicked() {
    setPictureForRoad();

@@ -1,6 +1,6 @@
 #include "server.h"
 
-Server::Server(QObject *parent) : QTcpServer(parent) , numOfThreads(0) {
+Server::Server(QObject *parent) : QTcpServer(parent) , numOfThreads(0) {  
 
 }
 
@@ -35,6 +35,7 @@ COLOR Server::getColor(int numOfThead) {
         return Green;
     else if (numOfThead == 2)
         return Blue;
+
 }
 
 

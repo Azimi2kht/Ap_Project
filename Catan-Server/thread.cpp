@@ -2,11 +2,12 @@
 #include "dice.h"
 #include "server.h"
 
-
+Map *Thread::map = new Map();
 Thread::Thread(int ID, QObject* parent) : countDice(0),
         QThread(parent) {
 
     this->socketDescriptor = ID;
+
 }
 
 void Thread::run() {
@@ -54,7 +55,12 @@ void Thread::command(QString data) {
 
     } else if (data.contains("chooseTurn")) {
 
-    } else if (data.contains("RandomNumbers")) {
+    } else if (data.contains("ChanceNumbers")) {
+        QString dataToSend = "";
+        for (int i = 0 ; i < map->chanceNumbers.size() ; i++)
+            dataToSend += QString::number(map->chanceNumbers[i]) + ".";
+
+        writeData(dataToSend);
 
     } else {
         qDebug() << "Incorrect format for command from :" << socketDescriptor;
