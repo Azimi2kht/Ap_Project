@@ -516,6 +516,12 @@ private slots:
 
     void on_pushButton_193_clicked();
 
+    void on_pushButton_246_clicked();
+
+    void on_pushButton_247_clicked();
+
+    void on_EndTurnButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     Match *match;

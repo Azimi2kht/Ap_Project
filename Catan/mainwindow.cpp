@@ -1575,3 +1575,13 @@ void MainWindow::on_pushButton_193_clicked()
    setPictureForRoad();
 }
 
+void MainWindow::on_pushButton_247_clicked()
+{
+    setPictureForHouse();
+}
+
+void MainWindow::on_EndTurnButton_clicked()
+{
+
+}
+
