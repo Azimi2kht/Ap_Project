@@ -30,6 +30,8 @@ private:
     static Map *map;
     static bool isFirstOne;
     static QVector<QString> turns;
+    static int witchTurn;
+    static int numberOfPlayersConnected;
 
 public slots:
     void readyRead();

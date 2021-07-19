@@ -5,6 +5,8 @@
 Map *Thread::map = new Map();
 bool Thread::isFirstOne = true;
 QVector<QString> Thread::turns;
+int Thread::numberOfPlayersConnected = 0;
+int Thread::witchTurn = 0;
 
 Thread::Thread(int ID, QObject* parent) : countDice(0),
         QThread(parent) {
@@ -58,13 +60,30 @@ void Thread::command(QString data) {
 
     } else if (data.contains("chooseTurn")) {
         // assuing all player are connected to server and sent their names
+        writeData(QString(Thread::turns[Thread::numberOfPlayersConnected]));
+
 
 
     } else if (data.contains("GiveName")) {
         QString name = data.split(".")[0];
         Thread::turns.push_back(name);
+        Thread::numberOfPlayersConnected++;
 
-    } else if (data.contains("IsFirstOne")) {
+    } else if (data.contains("EndTurn")) {
+        // completed
+        // contorol the numberOfPlayersConnected
+        if (Thread::numberOfPlayersConnected >= 3) {
+            Thread::numberOfPlayersConnected = 0;
+
+        } else {
+            Thread::numberOfPlayersConnected++;
+
+        }
+
+        // send next turn
+        writeData(QString(Thread::turns[Thread::numberOfPlayersConnected]));
+
+    }else if (data.contains("IsFirstOne")) {
         QString dataToSend = "";
         if (Thread::isFirstOne == true)
             dataToSend = "true";
