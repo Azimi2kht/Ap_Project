@@ -530,9 +530,5 @@ private:
     QString getPictureHouseType();
     QString getPictureRoadType();
 
-    bool isTurn;
-    void setIsTurn;
-
-
 };
 #endif // MAINWINDOW_H

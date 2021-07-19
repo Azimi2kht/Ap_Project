@@ -19,12 +19,16 @@ void Initial::on_ThreePlayers_clicked()
     // hide initial window
     this->hide();
 
-    // setup mainwindow ui
-    MainWindow *w = new MainWindow();
+    Name *w = new Name();
     w->show();
 
-    // change status
-    w->changeStatusTo(rollDice);
+    //    // setup mainwindow ui
+    //    MainWindow *w = new MainWindow();
+    //    w->show();
+
+    //    // change status
+    //    w->changeStatusTo(rollDice);
+
 }
 
 
@@ -33,12 +37,15 @@ void Initial::on_FourPlayers_clicked()
     // hide initial window
     this->hide();
 
-    // setup mainwindow ui
-    MainWindow *w = new MainWindow();
+    Name *w = new Name();
     w->show();
 
-    // change status
-    w->changeStatusTo(rollDice);
+//    // setup mainwindow ui
+//    MainWindow *w = new MainWindow();
+//    w->show();
+
+//    // change status
+//    w->changeStatusTo(rollDice);
 }
 
 

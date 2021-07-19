@@ -96,6 +96,10 @@ set(PROJECT_SOURCES
         initial.h
         initial.ui
         ini.qrc
+        name.cpp
+        name.h
+        name.qrc
+        name.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

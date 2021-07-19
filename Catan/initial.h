@@ -2,7 +2,7 @@
 #define INITIAL_H
 
 #include <QMainWindow>
-#include "mainwindow.h"
+#include "name.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Initial; }

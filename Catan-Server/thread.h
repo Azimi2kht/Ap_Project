@@ -5,6 +5,7 @@
 #include <QTcpSocket>
 #include <QDebug>
 #include <QVector>
+#include <QString>
 #include "map.h"
 
 enum COLOR {
@@ -27,6 +28,8 @@ private:
     int countDice;
     COLOR playerColor;
     static Map *map;
+    static bool isFirstOne;
+    static QVector<QString> turns;
 
 public slots:
     void readyRead();

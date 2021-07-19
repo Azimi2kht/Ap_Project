@@ -1709,10 +1709,6 @@ QString MainWindow::getPictureRoadType() {
 
 }
 
-void MainWindow::setIsTurn() {
-
-}
-
 void MainWindow::on_RollDice_clicked() {
     // get dice value from server
     int diceValue = match->getPlayer()->diceButton();

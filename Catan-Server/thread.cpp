@@ -3,6 +3,8 @@
 #include "server.h"
 
 Map *Thread::map = new Map();
+bool Thread::isFirstOne = true;
+
 Thread::Thread(int ID, QObject* parent) : countDice(0),
         QThread(parent) {
 
@@ -54,6 +56,20 @@ void Thread::command(QString data) {
         writeData(color);
 
     } else if (data.contains("chooseTurn")) {
+
+
+    } else if (data.contains("IsFirstOne")) {
+        QString dataToSend = "";
+        if (Thread::isFirstOne == true)
+            dataToSend = "true";
+        else
+            dataToSend = "false";
+
+        // send data to client
+        writeData(dataToSend);
+
+        // change the firstone status
+        Thread::isFirstOne = false;
 
 
     } else if (data.contains("ChanceNumbers")) {
