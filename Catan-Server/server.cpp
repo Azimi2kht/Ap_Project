@@ -34,8 +34,3 @@ COLOR Server::getColor(int numOfThead) {
     else if (numOfThead == 2)
         return Blue;
 }
-
-
-void Server::Bank(QString){
-
-}

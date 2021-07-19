@@ -16,7 +16,6 @@ class Server : public QTcpServer
 public:
     explicit Server(QObject *parent = nullptr);
     void StartServer();
-    void Bank(QString);
 
 protected:
     void incomingConnection(qintptr socketDiscriptor);
@@ -26,16 +25,16 @@ protected:
 
 private:
     // resources :
-    int sheep=20;
-    int wood=20;
-    int rock=20;
-    int wheat=20;
-    int brick=20;
-    int pointCard=5;
-    int knightCard=14;
-    int roadBuildCard=2;
-    int extraResourcesCard=2;
-    int exclusionCard=2;
+    int sheep = 20;
+    int wood = 20;
+    int rock = 20;
+    int wheat = 20;
+    int brick = 20;
+    int pointCard = 5;
+    int knightCard = 14;
+    int roadBuildCard = 2;
+    int extraResourcesCard = 2;
+    int exclusionCard = 2;
 
     // dice values:
     static QVector<Name_Dice> firstThreeDice;

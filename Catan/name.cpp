@@ -15,9 +15,16 @@ Name::~Name()
 
 void Name::on_pushButton_clicked()
 {
-    QString request("chooseTurn");
-    ClientSocket socket;
-    QString response = socket.Connect("127.0.0.1", 1234,request);
+    // send name and email
+    QString name = ui->EnteredName->text();
+
+
+
+    // get turns :TODO
+
+//    QString request("chooseTurn");
+//    ClientSocket socket;
+//    QString response = socket.Connect("127.0.0.1", 1234,request);
 
 
 

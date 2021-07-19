@@ -52,3 +52,8 @@
 2250	2511	6484086207586676	Catan-Server.exe	2ba43e5811902444
 9	1548	6484088375411294	CMakeFiles/Catan-Server.dir/thread.cpp.obj	298988c46873ae18
 1549	1818	6484088378123318	Catan-Server.exe	2ba43e5811902444
+5	398	6484160169156872	Catan-Server_autogen/timestamp	3e4e213b5ef0e457
+400	2216	6484160187324131	CMakeFiles/Catan-Server.dir/server.cpp.obj	b52dc67ff33d2dd5
+398	2250	6484160187533629	CMakeFiles/Catan-Server.dir/Catan-Server_autogen/mocs_compilation.cpp.obj	fd76f8c8f3bf5a2d
+403	2349	6484160188644406	CMakeFiles/Catan-Server.dir/main.cpp.obj	ead8fd152a77fe4
+405	2383	6484160188853851	CMakeFiles/Catan-Server.dir/thread.cpp.obj	298988c46873ae18

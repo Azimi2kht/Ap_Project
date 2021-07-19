@@ -1,6 +1,7 @@
 D:/Qt\ Projects/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Catan-Server_autogen/EWIEGA46WW/moc_thread.cpp: D:/Qt\ Projects/Ap_Project/Catan-Server/thread.h \
   D:/Qt\ Projects/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Catan-Server_autogen/moc_predefs.h \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/QDebug \
+  C:/Qt/6.1.0/mingw81_64/include/QtCore/QString \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/QThread \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/QVector \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/qalgorithms.h \
