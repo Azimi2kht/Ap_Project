@@ -11,7 +11,7 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
-enum Status {firstHouse, rollDice, isTurn, isNotTurn};
+enum Status {chooseHouse, chooseRoad,rollDice, isTurn, isNotTurn};
 
 class MainWindow : public QMainWindow
 {
@@ -27,6 +27,7 @@ public:
     void setChanceNumbers();
 
 private slots:
+    void on_RollDice_clicked();
 
     void on_pushButton_82_clicked();
 
@@ -360,10 +361,6 @@ private slots:
 
     void on_pushButton_73_clicked();
 
-    // new slots :
-
-    void on_RollDice_clicked();
-
     void on_pushButton_238_clicked();
 
     void on_pushButton_187_clicked();
@@ -532,6 +529,9 @@ private:
 
     QString getPictureHouseType();
     QString getPictureRoadType();
+
+    bool isTurn;
+    void setIsTurn;
 
 
 };

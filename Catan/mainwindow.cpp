@@ -264,10 +264,14 @@ void MainWindow::changeStatusTo(Status _status) {
             ui->pushButton_212->setEnabled(false);
             ui->pushButton_224->setEnabled(false);
 
-            break;
+        case rollDice:
+            ui->RollDice->setEnabled(true);
+        break;
 
-        case firstHouse:
-            // able vertixes
+        case chooseHouse:
+            ui->RollDice->setEnabled(false);
+
+            // able vertices
             ui->pushButton_147->setEnabled(true);
             ui->pushButton_145->setEnabled(true);
             ui->pushButton_139->setEnabled(true);
@@ -360,8 +364,223 @@ void MainWindow::changeStatusTo(Status _status) {
 
             break;
 
+        case chooseRoad:
+            // disable virteces
+            ui->pushButton_147->setEnabled(false);
+            ui->pushButton_145->setEnabled(false);
+            ui->pushButton_139->setEnabled(false);
+            ui->pushButton_138->setEnabled(false);
+            ui->pushButton_149->setEnabled(false);
+            ui->pushButton_140->setEnabled(false);
+            ui->pushButton_176->setEnabled(false);
+            ui->pushButton_143->setEnabled(false);
+            ui->pushButton_160->setEnabled(false);
+            ui->pushButton_152->setEnabled(false);
+            ui->pushButton_159->setEnabled(false);
+            ui->pushButton_156->setEnabled(false);
+            ui->pushButton_150->setEnabled(false);
+            ui->pushButton_142->setEnabled(false);
+            ui->pushButton_166->setEnabled(false);
+            ui->pushButton_157->setEnabled(false);
+            ui->pushButton_165->setEnabled(false);
+            ui->pushButton_163->setEnabled(false);
+            ui->pushButton_170->setEnabled(false);
+            ui->pushButton_175->setEnabled(false);
+            ui->pushButton_173->setEnabled(false);
+            ui->pushButton_154->setEnabled(false);
+            ui->pushButton_128->setEnabled(false);
+            ui->pushButton_127->setEnabled(false);
+            ui->pushButton_126->setEnabled(false);
+            ui->pushButton_122->setEnabled(false);
+            ui->pushButton_124->setEnabled(false);
+            ui->pushButton_123->setEnabled(false);
+            ui->pushButton_98->setEnabled(false);
+            ui->pushButton_99->setEnabled(false);
+            ui->pushButton_97->setEnabled(false);
+            ui->pushButton_96->setEnabled(false);
+            ui->pushButton_95->setEnabled(false);
+            ui->pushButton_84->setEnabled(false);
+            ui->pushButton_94->setEnabled(false);
+            ui->pushButton_82->setEnabled(false);
+            ui->pushButton_81->setEnabled(false);
+            ui->pushButton_83->setEnabled(false);
+            ui->pushButton_151->setEnabled(false);
+            ui->pushButton_141->setEnabled(false);
+            ui->pushButton_167->setEnabled(false);
+            ui->pushButton_146->setEnabled(false);
+            ui->pushButton_144->setEnabled(false);
+            ui->pushButton_148->setEnabled(false);
+            ui->pushButton_129->setEnabled(false);
+            ui->pushButton_130->setEnabled(false);
+            ui->pushButton_132->setEnabled(false);
+            ui->pushButton_131->setEnabled(false);
+            ui->pushButton_133->setEnabled(false);
+            ui->pushButton_134->setEnabled(false);
+            ui->pushButton_135->setEnabled(false);
+            ui->pushButton_136->setEnabled(false);
+            ui->pushButton_137->setEnabled(false);
+            ui->pushButton_121->setEnabled(false);
+            ui->pushButton_120->setEnabled(false);
+            ui->pushButton_119->setEnabled(false);
+            ui->pushButton_118->setEnabled(false);
+            ui->pushButton_117->setEnabled(false);
+            ui->pushButton_116->setEnabled(false);
+            ui->pushButton_115->setEnabled(false);
+            ui->pushButton_114->setEnabled(false);
+            ui->pushButton_113->setEnabled(false);
+            ui->pushButton_112->setEnabled(false);
+            ui->pushButton_111->setEnabled(false);
+            ui->pushButton_100->setEnabled(false);
+            ui->pushButton_101->setEnabled(false);
+            ui->pushButton_102->setEnabled(false);
+            ui->pushButton_103->setEnabled(false);
+            ui->pushButton_104->setEnabled(false);
+            ui->pushButton_105->setEnabled(false);
+            ui->pushButton_106->setEnabled(false);
+            ui->pushButton_107->setEnabled(false);
+            ui->pushButton_108->setEnabled(false);
+            ui->pushButton_109->setEnabled(false);
+            ui->pushButton_86->setEnabled(false);
+            ui->pushButton_92->setEnabled(false);
+            ui->pushButton_88->setEnabled(false);
+            ui->pushButton_85->setEnabled(false);
+            ui->pushButton_87->setEnabled(false);
+            ui->pushButton_93->setEnabled(false);
+            ui->pushButton_91->setEnabled(false);
+            ui->pushButton_90->setEnabled(false);
+            ui->pushButton_2->setEnabled(false);
+            ui->pushButton_74->setEnabled(false);
+            ui->pushButton_75->setEnabled(false);
+            ui->pushButton_76->setEnabled(false);
+            ui->pushButton_77->setEnabled(false);
+            ui->pushButton_78->setEnabled(false);
+            ui->pushButton_79->setEnabled(false);
 
+            // enable sides
+            ui->pushButton_238->setEnabled(true);
+            ui->pushButton_187->setEnabled(true);
+            ui->pushButton_162->setEnabled(true);
+            ui->pushButton_161->setEnabled(true);
+            ui->pushButton_155->setEnabled(true);
+            ui->pushButton_158->setEnabled(true);
+            ui->pushButton_164->setEnabled(true);
+            ui->pushButton_168->setEnabled(true);
+            ui->pushButton_34->setEnabled(true);
+            ui->pushButton_36->setEnabled(true);
+            ui->pushButton_35->setEnabled(true);
+            ui->pushButton_174->setEnabled(true);
+            ui->pushButton_178->setEnabled(true);
+            ui->pushButton_197->setEnabled(true);
+            ui->pushButton_185->setEnabled(true);
+            ui->pushButton_177->setEnabled(true);
+            ui->pushButton_202->setEnabled(true);
+            ui->pushButton_198->setEnabled(true);
+            ui->pushButton_204->setEnabled(true);
+            ui->pushButton_188->setEnabled(true);
+            ui->pushButton_208->setEnabled(true);
+            ui->pushButton_199->setEnabled(true);
+            ui->pushButton_192->setEnabled(true);
+            ui->pushButton_206->setEnabled(true);
+            ui->pushButton_194->setEnabled(true);
+            ui->pushButton_207->setEnabled(true);
+            ui->pushButton_201->setEnabled(true);
+            ui->pushButton_239->setEnabled(true);
+            ui->pushButton_235->setEnabled(true);
+            ui->pushButton_240->setEnabled(true);
+            ui->pushButton_245->setEnabled(true);
+            ui->pushButton_244->setEnabled(true);
+            ui->pushButton_243->setEnabled(true);
+            ui->pushButton_242->setEnabled(true);
+            ui->pushButton_37->setEnabled(true);
+            ui->pushButton_38->setEnabled(true);
+            ui->pushButton_32->setEnabled(true);
+            ui->pushButton_39->setEnabled(true);
+            ui->pushButton_42->setEnabled(true);
+            ui->pushButton_40->setEnabled(true);
+            ui->pushButton_41->setEnabled(true);
+            ui->pushButton_49->setEnabled(true);
+            ui->pushButton_48->setEnabled(true);
+            ui->pushButton_46->setEnabled(true);
+            ui->pushButton_45->setEnabled(true);
+            ui->pushButton_43->setEnabled(true);
+            ui->pushButton_44->setEnabled(true);
+            ui->pushButton_224->setEnabled(true);
+            ui->pushButton_212->setEnabled(true);
+            ui->pushButton_213->setEnabled(true);
+            ui->pushButton_241->setEnabled(true);
+            ui->pushButton_236->setEnabled(true);
+            ui->pushButton_80->setEnabled(true);
+            ui->pushButton_223->setEnabled(true);
+            ui->pushButton_228->setEnabled(true);
+            ui->pushButton_230->setEnabled(true);
+            ui->pushButton_229->setEnabled(true);
+            ui->pushButton_220->setEnabled(true);
+            ui->pushButton_211->setEnabled(true);
+            ui->pushButton_217->setEnabled(true);
+            ui->pushButton_234->setEnabled(true);
+            ui->pushButton_226->setEnabled(true);
+            ui->pushButton_216->setEnabled(true);
+            ui->pushButton_231->setEnabled(true);
+            ui->pushButton_219->setEnabled(true);
+            ui->pushButton_233->setEnabled(true);
+            ui->pushButton_214->setEnabled(true);
+            ui->pushButton_218->setEnabled(true);
+            ui->pushButton_209->setEnabled(true);
+            ui->pushButton_210->setEnabled(true);
+            ui->pushButton_237->setEnabled(true);
+            ui->pushButton_232->setEnabled(true);
+            ui->pushButton_225->setEnabled(true);
+            ui->pushButton_227->setEnabled(true);
+            ui->pushButton_221->setEnabled(true);
+            ui->pushButton_222->setEnabled(true);
+            ui->pushButton_190->setEnabled(true);
+            ui->pushButton_203->setEnabled(true);
+            ui->pushButton_200->setEnabled(true);
+            ui->pushButton_186->setEnabled(true);
+            ui->pushButton_215->setEnabled(true);
+            ui->pushButton_184->setEnabled(true);
+            ui->pushButton_171->setEnabled(true);
+            ui->pushButton_172->setEnabled(true);
+            ui->pushButton_181->setEnabled(true);
+            ui->pushButton_196->setEnabled(true);
+            ui->pushButton_195->setEnabled(true);
+            ui->pushButton_189->setEnabled(true);
+            ui->pushButton_205->setEnabled(true);
+            ui->pushButton_183->setEnabled(true);
+            ui->pushButton_191->setEnabled(true);
+            ui->pushButton_179->setEnabled(true);
+            ui->pushButton_180->setEnabled(true);
+            ui->pushButton_182->setEnabled(true);
+            ui->pushButton_193->setEnabled(true);
+            ui->pushButton_6->setEnabled(true);
+            ui->pushButton_5->setEnabled(true);
+            ui->pushButton_7->setEnabled(true);
+            ui->pushButton_9->setEnabled(true);
+            ui->pushButton->setEnabled(true);
+            ui->pushButton_3->setEnabled(true);
+            ui->pushButton_4->setEnabled(true);
+            ui->pushButton_8->setEnabled(true);
+            ui->pushButton_10->setEnabled(true);
+            ui->pushButton_11->setEnabled(true);
+            ui->pushButton_25->setEnabled(true);
+            ui->pushButton_23->setEnabled(true);
+            ui->pushButton_24->setEnabled(true);
+            ui->pushButton_21->setEnabled(true);
+            ui->pushButton_20->setEnabled(true);
+            ui->pushButton_12->setEnabled(true);
+            ui->pushButton_19->setEnabled(true);
+            ui->pushButton_18->setEnabled(true);
+            ui->pushButton_17->setEnabled(true);
+            ui->pushButton_22->setEnabled(true);
+            ui->pushButton_14->setEnabled(true);
+            ui->pushButton_13->setEnabled(true);
+            ui->pushButton_15->setEnabled(true);
+            ui->pushButton_16->setEnabled(true);
+        break;
 
+        case isTurn:
+            ui->Trade->setEnabled(true);
+        break;
     }
 
 }
@@ -1490,6 +1709,10 @@ QString MainWindow::getPictureRoadType() {
 
 }
 
+void MainWindow::setIsTurn() {
+
+}
+
 void MainWindow::on_RollDice_clicked() {
     // get dice value from server
     int diceValue = match->getPlayer()->diceButton();
@@ -1497,7 +1720,6 @@ void MainWindow::on_RollDice_clicked() {
     // set text value
     QString Rolled = QString::number(diceValue);
     ui->RolledNumber->setText(Rolled);
-
 }
 
 void MainWindow::on_pushButton_238_clicked()

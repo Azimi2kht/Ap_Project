@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+#include "initial.h"
 #include "match.h"
 #include <QApplication>
 
@@ -7,7 +8,8 @@ int main(int argc, char *argv[]) {
 
 
 
-
+    Initial w;
+    w.show();
     // goes to slot login
 //    MainWindow w;
 //    w.show();
