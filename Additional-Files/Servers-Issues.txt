@@ -1,4 +1,0 @@
-- Recieve data line by line (not character by character) (solved : this is telnets problem in actual program it works fine);
-- How should server know how resources are distributed? (solved : no need to do this .Will be handled in Player! ).
-- There should not be a match class in player ( the server will handle the turns)
- 

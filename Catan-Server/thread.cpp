@@ -55,6 +55,7 @@ void Thread::command(QString data) {
 
     } else if (data.contains("chooseTurn")) {
 
+
     } else if (data.contains("ChanceNumbers")) {
         QString dataToSend = "";
         for (int i = 0 ; i < map->chanceNumbers.size() ; i++)
@@ -63,7 +64,7 @@ void Thread::command(QString data) {
         writeData(dataToSend);
 
     } else {
-        qDebug() << "Incorrect format for command from :" << socketDescriptor;
+        qDebug() << "Incorrect format for command from: " << socketDescriptor;
     }
 
 }

@@ -24,8 +24,6 @@ void Server::incomingConnection(qintptr socketDiscriptor) {
 
     connect(thread, SIGNAL(finished()), thread, SLOT(deleteLater()));
     thread->start();
-
-
 }
 
 COLOR Server::getColor(int numOfThead) {
@@ -35,7 +33,6 @@ COLOR Server::getColor(int numOfThead) {
         return Green;
     else if (numOfThead == 2)
         return Blue;
-
 }
 
 

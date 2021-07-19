@@ -11,6 +11,8 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
+enum Status {firstHouse, rollDice, isTurn, isNotTurn};
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -21,9 +23,8 @@ public:
     ~MainWindow();
 
     // public methods
-    void disableAll();
+    void changeStatusTo(Status _status); // add more items to the mothods list (like DiceButton); TODO
     void setChanceNumbers();
-    QVector<int> deFormatWith(QString str, QChar delimiter);
 
 private slots:
 
@@ -360,8 +361,6 @@ private slots:
     void on_pushButton_73_clicked();
 
     // new slots :
-
-
 
     void on_RollDice_clicked();
 
