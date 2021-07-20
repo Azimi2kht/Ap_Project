@@ -2190,8 +2190,12 @@ void MainWindow::on_pushButton_247_clicked()
     setPictureForHouse();
 }
 
+void MainWindow::on_pushButton_246_clicked()
+{
+    setPictureForHouse();
+}
+
 void MainWindow::on_EndTurnButton_clicked()
 {
 
 }
-
