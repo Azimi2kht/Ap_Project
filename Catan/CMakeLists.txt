@@ -104,6 +104,10 @@ set(PROJECT_SOURCES
         wait.qrc
         waiting.h
         waiting.ui
+        help.cpp
+        help.h
+        help.qrc
+        help.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
