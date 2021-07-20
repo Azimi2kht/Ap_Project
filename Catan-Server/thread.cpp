@@ -74,15 +74,19 @@ void Thread::command(QString data) {
     } else if (data.contains("GameMode")) {
         Thread::GameMode = data.split(".")[1].toInt();
 
+    } else if (data.contains("GetName")) {
+        writeData(QString(playerName));
+
     } else if (data.contains("GiveName")) {
         QString name = data.split(".")[0];
         Thread::turns.push_back(name);
         Thread::numberOfPlayersConnected++;
+        playerName = name;
 
     } else if (data.contains("EndTurn")) {
         // completed
         // contorol the numberOfPlayersConnected
-        if (Thread::numberOfPlayersConnected >= 3) {
+        if (Thread::numberOfPlayersConnected >= GameMode) {
             Thread::numberOfPlayersConnected = 0;
 
         } else {
