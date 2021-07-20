@@ -42,7 +42,8 @@ QString Thread::colorToStr(COLOR color)
         return "Green";
     else if (color == Yellow)
         return "Yellow";
-
+    else
+        return "-1";
 }
 
 void Thread::command(QString data) {

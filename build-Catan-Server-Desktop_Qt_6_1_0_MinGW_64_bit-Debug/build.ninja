@@ -159,7 +159,7 @@ build Catan-Server_autogen/timestamp: CUSTOM_COMMAND C$:/Qt/6.1.0/mingw81_64/./b
 #############################################
 # Phony custom command for CMakeFiles\Catan-Server_autogen_timestamp_deps
 
-build CMakeFiles/Catan-Server_autogen_timestamp_deps: phony C$:/Qt/6.1.0/mingw81_64/bin/Qt6Widgets.dll C$:/Qt/6.1.0/mingw81_64/./bin/uic.exe C$:/Qt/6.1.0/mingw81_64/bin/Qt6Core.dll C$:/Qt/6.1.0/mingw81_64/./bin/moc.exe C$:/Qt/6.1.0/mingw81_64/bin/Qt6Network.dll
+build CMakeFiles/Catan-Server_autogen_timestamp_deps: phony C$:/Qt/6.1.0/mingw81_64/./bin/moc.exe C$:/Qt/6.1.0/mingw81_64/./bin/uic.exe C$:/Qt/6.1.0/mingw81_64/bin/Qt6Widgets.dll C$:/Qt/6.1.0/mingw81_64/bin/Qt6Core.dll C$:/Qt/6.1.0/mingw81_64/bin/Qt6Network.dll
 
 
 #############################################
