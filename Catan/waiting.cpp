@@ -18,10 +18,9 @@ Waiting::~Waiting()
 
 void Waiting::on_Refresh_clicked()
 {
-    ClientSocket *socket = new ClientSocket();
+    ClientSocket socket;
     QString request("GetNumberOfOnlinePlayers");
-    QString response = socket->Connect("127.0.0.1", 1234, request);
-    delete(socket);
+    QString response = socket.Connect("127.0.0.1", 1234, request);
 
     Waiting::numberOfOnlinePlayers = response.toInt();
 
@@ -33,24 +32,25 @@ void Waiting::on_Refresh_clicked()
 void Waiting::on_StartButton_clicked()
 {
     // get gamemode from server
-    ClientSocket *socket = new ClientSocket();
+    ClientSocket socket;
     QString request("GetGameMode");
-    int gameMode = socket->Connect("127.0.0.1", 1234, request).toInt();
-    delete(socket);
+    int gameMode = socket.Connect("127.0.0.1", 1234, request).toInt();
+
     // set number of online players
     request = "GetNumberOfOnlinePlayers";
-    QString response = socket->Connect("127.0.0.1", 1234, request);
+    QString response = socket.Connect("127.0.0.1", 1234, request);
 
     Waiting::numberOfOnlinePlayers = response.toInt();
 
-    if (Waiting::numberOfOnlinePlayers >= 2) {
-        // hide curren windows
-        this->hide();
+    if (Waiting::numberOfOnlinePlayers >= gameMode) {
+//        // hide curren windows
+//        this->hide();
 
-        // setup next window
-        MainWindow *w = new MainWindow();
-        w->show();
-
+//        // setup next window
+//        MainWindow *w = new MainWindow();
+//        w->show();
+        ClientSocket socket;
+        qInfo() << socket.Connect("127.0.0.1", 1234, "GetName");
     } else {
         QMessageBox info;
         info.setText("Not enough players has joined to start the match!");
