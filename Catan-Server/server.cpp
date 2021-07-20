@@ -21,6 +21,7 @@ void Server::incomingConnection(qintptr socketDiscriptor) {
     // set playerColor for thread
     thread->setColor(getColor(numOfThreads));
     numOfThreads++;
+    qDebug() << numOfThreads;
 
     connect(thread, SIGNAL(finished()), thread, SLOT(deleteLater()));
     thread->start();

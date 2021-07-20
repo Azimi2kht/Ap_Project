@@ -120,6 +120,7 @@ void Thread::command(QString data) {
 
     } else {
         qDebug() << "Incorrect format for command from: " << socketDescriptor;
+
     }
 
 }

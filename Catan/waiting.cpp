@@ -18,9 +18,10 @@ Waiting::~Waiting()
 
 void Waiting::on_Refresh_clicked()
 {
-    ClientSocket socket;
+    ClientSocket *socket = new ClientSocket();
     QString request("GetNumberOfOnlinePlayers");
-    QString response = socket.Connect("127.0.0.1", 1234, request);
+    QString response = socket->Connect("127.0.0.1", 1234, request);
+    delete(socket);
 
     Waiting::numberOfOnlinePlayers = response.toInt();
 
@@ -32,17 +33,17 @@ void Waiting::on_Refresh_clicked()
 void Waiting::on_StartButton_clicked()
 {
     // get gamemode from server
-    ClientSocket socket;
+    ClientSocket *socket = new ClientSocket();
     QString request("GetGameMode");
-    int gameMode = socket.Connect("127.0.0.1", 1234, request).toInt();
-
+    int gameMode = socket->Connect("127.0.0.1", 1234, request).toInt();
+    delete(socket);
     // set number of online players
     request = "GetNumberOfOnlinePlayers";
-    QString response = socket.Connect("127.0.0.1", 1234, request);
+    QString response = socket->Connect("127.0.0.1", 1234, request);
 
     Waiting::numberOfOnlinePlayers = response.toInt();
 
-    if (Waiting::numberOfOnlinePlayers >= gameMode) {
+    if (Waiting::numberOfOnlinePlayers >= 2) {
         // hide curren windows
         this->hide();
 
