@@ -36,6 +36,12 @@ void Waiting::on_StartButton_clicked()
     QString request("GetGameMode");
     int gameMode = socket.Connect("127.0.0.1", 1234, request).toInt();
 
+    // set number of online players
+    request = "GetNumberOfOnlinePlayers";
+    QString response = socket.Connect("127.0.0.1", 1234, request);
+
+    Waiting::numberOfOnlinePlayers = response.toInt();
+
     if (Waiting::numberOfOnlinePlayers >= gameMode) {
         // hide curren windows
         this->hide();
