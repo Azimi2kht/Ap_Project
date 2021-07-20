@@ -86,7 +86,7 @@ void Thread::command(QString data) {
     } else if (data.contains("EndTurn")) {
         // completed
         // contorol the numberOfPlayersConnected
-        if (Thread::numberOfPlayersConnected >= GameMode) {
+        if (Thread::numberOfPlayersConnected > GameMode) {
             Thread::numberOfPlayersConnected = 0;
 
         } else {

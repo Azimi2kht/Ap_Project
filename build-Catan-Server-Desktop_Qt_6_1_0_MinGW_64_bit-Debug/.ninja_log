@@ -1,0 +1,11 @@
+# ninja log v5
+4	397	6484742827543335	Catan-Server_autogen/timestamp	42fa9aa6d7efb8e5
+399	464	6484742828211193	CMakeFiles/Catan-Server.dir/dice.cpp.obj	ae9b4f3e7200011b
+403	1642	6484742839979724	CMakeFiles/Catan-Server.dir/map.cpp.obj	48ed7f09c6c55722
+400	2140	6484742844966817	CMakeFiles/Catan-Server.dir/server.cpp.obj	8954b9c409f81f33
+397	2203	6484742845584738	CMakeFiles/Catan-Server.dir/Catan-Server_autogen/mocs_compilation.cpp.obj	cb3e93e722c201c1
+401	2311	6484742846651881	CMakeFiles/Catan-Server.dir/thread.cpp.obj	3ba22f2da47b84ce
+398	2317	6484742846741642	CMakeFiles/Catan-Server.dir/main.cpp.obj	7b1f5face837dc14
+2318	2586	6484742849388423	Catan-Server.exe	2ba43e5811902444
+5	1626	6484756385897326	CMakeFiles/Catan-Server.dir/thread.cpp.obj	3ba22f2da47b84ce
+1626	1898	6484756388596263	Catan-Server.exe	2ba43e5811902444
