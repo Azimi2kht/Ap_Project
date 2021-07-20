@@ -42,21 +42,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Catan-Server::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Catan-Server-Debug-dc43cba4535197c89e79.json",
+					"jsonFile" : "target-Catan-Server-Debug-7e81221ffce883338359.json",
 					"name" : "Catan-Server",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Catan-Server_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Catan-Server_autogen-Debug-c2f4109832106f2e4606.json",
+					"jsonFile" : "target-Catan-Server_autogen-Debug-3c7c848955fbf249f817.json",
 					"name" : "Catan-Server_autogen",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Catan-Server_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Catan-Server_autogen_timestamp_deps-Debug-f7e904a064b3eb297874.json",
+					"jsonFile" : "target-Catan-Server_autogen_timestamp_deps-Debug-a639b1dcf052b476027c.json",
 					"name" : "Catan-Server_autogen_timestamp_deps",
 					"projectIndex" : 0
 				}
@@ -66,8 +66,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/Qt Projects/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug",
-		"source" : "D:/Qt Projects/Ap_Project/Catan-Server"
+		"build" : "C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server"
 	},
 	"version" : 
 	{

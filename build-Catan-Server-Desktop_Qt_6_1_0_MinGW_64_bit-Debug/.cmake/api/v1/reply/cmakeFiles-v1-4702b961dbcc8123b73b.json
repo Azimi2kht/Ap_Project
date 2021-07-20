@@ -10,7 +10,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "D:/Qt Projects/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/CMakeFiles/3.19.2/CMakeSystem.cmake"
+			"path" : "C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/CMakeFiles/3.19.2/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -19,7 +19,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "D:/Qt Projects/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake"
+			"path" : "C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -83,7 +83,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "D:/Qt Projects/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/CMakeFiles/3.19.2/CMakeRCCompiler.cmake"
+			"path" : "C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/CMakeFiles/3.19.2/CMakeRCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -987,8 +987,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/Qt Projects/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug",
-		"source" : "D:/Qt Projects/Ap_Project/Catan-Server"
+		"build" : "C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server"
 	},
 	"version" : 
 	{
