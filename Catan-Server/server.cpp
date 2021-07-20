@@ -1,6 +1,6 @@
 #include "server.h"
 
-Server::Server(QObject *parent) : QTcpServer(parent) , numOfThreads(0) {
+Server::Server(QObject *parent) : QTcpServer(parent) , numOfThreads(0) {  
 
 }
 
@@ -24,8 +24,6 @@ void Server::incomingConnection(qintptr socketDiscriptor) {
 
     connect(thread, SIGNAL(finished()), thread, SLOT(deleteLater()));
     thread->start();
-
-
 }
 
 COLOR Server::getColor(int numOfThead) {
@@ -35,9 +33,6 @@ COLOR Server::getColor(int numOfThead) {
         return Green;
     else if (numOfThead == 2)
         return Blue;
-}
-
-
-void Server::Bank(QString){
-
+    else
+        return Red;
 }

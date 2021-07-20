@@ -2,11 +2,17 @@
 #include "dice.h"
 #include "server.h"
 
+Map *Thread::map = new Map();
+bool Thread::isFirstOne = true;
+QVector<QString> Thread::turns;
+int Thread::numberOfPlayersConnected = 0;
+int Thread::witchTurn = 0;
 
 Thread::Thread(int ID, QObject* parent) : countDice(0),
         QThread(parent) {
 
     this->socketDescriptor = ID;
+
 }
 
 void Thread::run() {
@@ -36,7 +42,8 @@ QString Thread::colorToStr(COLOR color)
         return "Green";
     else if (color == Yellow)
         return "Yellow";
-
+    else
+        return "-1";
 }
 
 void Thread::command(QString data) {
@@ -53,11 +60,53 @@ void Thread::command(QString data) {
         writeData(color);
 
     } else if (data.contains("chooseTurn")) {
+        // assuing all player are connected to server and sent their names
+        writeData(QString(Thread::turns[Thread::numberOfPlayersConnected]));
 
-    } else if (data.contains("RandomNumbers")) {
+
+
+    } else if (data.contains("GiveName")) {
+        QString name = data.split(".")[0];
+        Thread::turns.push_back(name);
+        Thread::numberOfPlayersConnected++;
+
+    } else if (data.contains("EndTurn")) {
+        // completed
+        // contorol the numberOfPlayersConnected
+        if (Thread::numberOfPlayersConnected >= 3) {
+            Thread::numberOfPlayersConnected = 0;
+
+        } else {
+            Thread::numberOfPlayersConnected++;
+
+        }
+
+        // send next turn
+        writeData(QString(Thread::turns[Thread::numberOfPlayersConnected]));
+
+    }else if (data.contains("IsFirstOne")) {
+        QString dataToSend = "";
+        if (Thread::isFirstOne == true)
+            dataToSend = "true";
+        else
+            dataToSend = "false";
+
+        // send data to client
+        writeData(dataToSend);
+
+        // change the firstone status
+        Thread::isFirstOne = false;
+
+
+    } else if (data.contains("ChanceNumbers")) {
+        QString dataToSend = "";
+        for (int i = 0 ; i < map->chanceNumbers.size() ; i++)
+            dataToSend += QString::number(map->chanceNumbers[i]) + ".";
+
+        writeData(dataToSend);
 
     } else {
-        qDebug() << "Incorrect format for command from :" << socketDescriptor;
+        qDebug() << "Incorrect format for command from: " << socketDescriptor;
     }
 
 }

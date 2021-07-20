@@ -11,6 +11,8 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
+enum Status {chooseHouse, chooseRoad,rollDice, isTurn, isNotTurn};
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -20,9 +22,12 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-
+    // public methods
+    void changeStatusTo(Status _status); // add more items to the mothods list (like DiceButton); TODO
+    void setChanceNumbers();
 
 private slots:
+    void on_RollDice_clicked();
 
     void on_pushButton_82_clicked();
 
@@ -356,10 +361,6 @@ private slots:
 
     void on_pushButton_73_clicked();
 
-
-
-    void on_RollDice_clicked();
-
     void on_pushButton_238_clicked();
 
     void on_pushButton_187_clicked();
@@ -534,7 +535,6 @@ private:
 
     QString getPictureHouseType();
     QString getPictureRoadType();
-
 
 };
 #endif // MAINWINDOW_H

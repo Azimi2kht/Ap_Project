@@ -9,6 +9,7 @@ public:
     Map();
 
 QVector<int> chanceNumbers;
+
 };
 
 template<typename T>

@@ -2114,24 +2114,6 @@ border: 0px;</string>
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_50">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>520</y>
-      <width>10</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);
-background: transparent;
-border: 0px;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_51">
     <property name="geometry">
      <rect>
@@ -4225,7 +4207,7 @@ border: 0px;</string>
      <rect>
       <x>540</x>
       <y>600</y>
-      <width>176</width>
+      <width>71</width>
       <height>71</height>
      </rect>
     </property>
@@ -5373,6 +5355,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5385,6 +5372,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5399,6 +5391,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5411,6 +5408,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5425,6 +5427,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5437,6 +5444,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5451,6 +5463,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5463,6 +5480,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5477,6 +5499,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5489,6 +5516,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5503,6 +5535,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5515,6 +5552,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5529,6 +5571,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5541,6 +5588,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5555,6 +5607,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5567,6 +5624,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5581,6 +5643,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5593,6 +5660,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5607,6 +5679,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5619,6 +5696,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5633,6 +5715,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5645,6 +5732,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5659,6 +5751,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5671,6 +5768,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5685,6 +5787,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5697,6 +5804,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5711,6 +5823,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5723,6 +5840,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5737,6 +5859,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5749,6 +5876,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5763,6 +5895,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5775,6 +5912,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5789,6 +5931,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5801,6 +5948,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5815,6 +5967,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5827,6 +5984,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5841,6 +6003,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5853,6 +6020,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5867,6 +6039,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5879,6 +6056,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5893,6 +6075,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5905,6 +6092,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5919,6 +6111,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5931,6 +6128,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5945,6 +6147,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5957,6 +6164,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5971,6 +6183,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -5983,6 +6200,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -5997,6 +6219,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -6009,6 +6236,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -6023,6 +6255,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -6035,6 +6272,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -6049,6 +6291,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -6061,6 +6308,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -6075,6 +6327,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -6087,6 +6344,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -6101,6 +6363,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -6113,6 +6380,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -6127,6 +6399,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -6139,6 +6416,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -6153,6 +6435,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -6165,6 +6452,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -6179,6 +6471,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -6191,6 +6488,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -6205,6 +6507,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -6217,6 +6524,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -6231,6 +6543,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -6243,6 +6560,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -6257,6 +6579,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -6269,6 +6596,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -6283,6 +6615,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -6295,6 +6632,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -6309,6 +6651,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -6321,6 +6668,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -6335,6 +6687,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -6347,6 +6704,11 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -6361,6 +6723,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -6374,6 +6741,11 @@ color: Black;</string>
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -6386,6 +6758,60 @@ color: Black;</string>
       <width>14</width>
       <height>14</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_246">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>120</y>
+      <width>14</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="EndTurn">
+    <property name="geometry">
+     <rect>
+      <x>919</x>
+      <y>604</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>End Turn</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_50">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>520</y>
+      <width>10</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background: transparent;
+border: 0px;</string>
     </property>
     <property name="text">
      <string/>
@@ -6503,7 +6929,6 @@ color: Black;</string>
    <zorder>pushButton_47</zorder>
    <zorder>pushButton_48</zorder>
    <zorder>pushButton_49</zorder>
-   <zorder>pushButton_50</zorder>
    <zorder>pushButton_51</zorder>
    <zorder>pushButton_52</zorder>
    <zorder>pushButton_53</zorder>
@@ -6733,6 +7158,9 @@ color: Black;</string>
    <zorder>pushButton_245</zorder>
    <zorder>pushButton_240</zorder>
    <zorder>pushButton_241</zorder>
+   <zorder>pushButton_246</zorder>
+   <zorder>EndTurn</zorder>
+   <zorder>pushButton_50</zorder>
   </widget>
  </widget>
  <resources>

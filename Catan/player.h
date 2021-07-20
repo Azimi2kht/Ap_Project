@@ -23,6 +23,7 @@ public:
     int getNumOfWheat() {return numOfWheat;}
     int getNumOfRock() {return numOfRock;}
     COLOR getPlayerColor() {return playerColor;}
+    QString sendToServer(QString _str);
 
     // setter
     void decreaseSheep() { numOfSheep--;}

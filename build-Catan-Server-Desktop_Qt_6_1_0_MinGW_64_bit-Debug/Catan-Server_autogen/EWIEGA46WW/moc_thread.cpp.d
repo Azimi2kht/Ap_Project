@@ -1,6 +1,7 @@
-C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Catan-Server_autogen/EWIEGA46WW/moc_thread.cpp: C:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server/thread.h \
-  C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Catan-Server_autogen/moc_predefs.h \
+D:/Qt\ Projects/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Catan-Server_autogen/EWIEGA46WW/moc_thread.cpp: D:/Qt\ Projects/Ap_Project/Catan-Server/thread.h \
+  D:/Qt\ Projects/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug/Catan-Server_autogen/moc_predefs.h \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/QDebug \
+  C:/Qt/6.1.0/mingw81_64/include/QtCore/QString \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/QThread \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/QVector \
   C:/Qt/6.1.0/mingw81_64/include/QtCore/qalgorithms.h \
@@ -179,6 +180,7 @@ C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring \
+  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
@@ -251,6 +253,7 @@ C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_print_push.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/_timeval.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/assert.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/corecrt_startup.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/crtdefs.h \
@@ -261,6 +264,7 @@ C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/pthread.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/pthread_compat.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/pthread_time.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/pthread_unistd.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
@@ -274,6 +278,8 @@ C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/swprintf.inl \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/sys/timeb.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h
+  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
+  D:/Qt\ Projects/Ap_Project/Catan-Server/map.h

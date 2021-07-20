@@ -21,14 +21,17 @@ Player::Player(QString _name):point(0), name(_name){
 }
 
 void Player::addPiece(QPushButton *_button) {
-    pieces.push_back(_button);
-    point++;
+
+}
+
+QString Player::sendToServer(QString _str)
+{
+    return clientSocket.Connect("127.0.0.1", 1234,_str);
 }
 
 int Player::diceButton() {
-    ClientSocket w;
     QString request("Dice:");
-    QString recieved = w.Connect("127.0.0.1", 1234, request);
+    QString recieved = clientSocket.Connect("127.0.0.1", 1234, request);
 
     return recieved.toInt();
 }

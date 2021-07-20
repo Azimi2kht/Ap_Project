@@ -92,6 +92,18 @@ set(PROJECT_SOURCES
         Sea.qrc
         match.h
         match.cpp
+        initial.cpp
+        initial.h
+        initial.ui
+        ini.qrc
+        name.cpp
+        name.h
+        name.qrc
+        name.ui
+        waiting.cpp
+        wait.qrc
+        waiting.h
+        waiting.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

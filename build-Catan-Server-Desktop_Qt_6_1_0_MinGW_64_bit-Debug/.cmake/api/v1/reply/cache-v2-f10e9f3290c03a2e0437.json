@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug"
+			"value" : "d:/Qt Projects/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server"
+			"value" : "D:/Qt Projects/Ap_Project/Catan-Server"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1219,7 +1219,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/user/Desktop/Ap_Project/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug"
+			"value" : "D:/Qt Projects/Ap_Project/build-Catan-Server-Desktop_Qt_6_1_0_MinGW_64_bit-Debug"
 		},
 		{
 			"name" : "Catan-Server_SOURCE_DIR",
@@ -1231,7 +1231,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/user/Desktop/Ap_Project/Ap_Project/Catan-Server"
+			"value" : "D:/Qt Projects/Ap_Project/Catan-Server"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding OpenSSL"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[C:/MinGW/lib/libcrypto.dll.a][C:/MinGW/include][c ][v1.1.1k()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
@@ -1256,6 +1268,18 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "[1][v()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_WrapOpenSSLHeaders",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding WrapOpenSSLHeaders"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[ON][v()]"
 		},
 		{
 			"name" : "HAVE_STDATOMIC",
@@ -1283,7 +1307,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "LIB_EAY-NOTFOUND"
+			"value" : "C:/MinGW/lib/libcrypto.dll.a"
 		},
 		{
 			"name" : "OPENSSL_INCLUDE_DIR",
@@ -1299,7 +1323,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "OPENSSL_INCLUDE_DIR-NOTFOUND"
+			"value" : "C:/MinGW/include"
 		},
 		{
 			"name" : "QT_ADDITIONAL_PACKAGES_PREFIX_PATH",
@@ -5803,7 +5827,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "SSL_EAY-NOTFOUND"
+			"value" : "C:/MinGW/lib/libssl.dll.a"
 		},
 		{
 			"name" : "Vulkan_GLSLC_EXECUTABLE",
