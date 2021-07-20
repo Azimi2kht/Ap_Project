@@ -60,7 +60,7 @@
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>امیرارشیا باغبان                                                                                   حمید عظیمی دخت                                                                                رضوان عابدین</string>
+     <string>امیرارشیا باغبان                                                                                 سید حمید عظیمی دخت                                                                              رضوان عابدین</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
