@@ -10,6 +10,20 @@ MainWindow::MainWindow(QWidget *parent)
 
     match = new Match();
     setChanceNumbers();
+
+    // getTurn
+    ClientSocket socket;
+    QString request("chooseTurn");
+    QString response = socket.Connect("127.0.0.1", 1234,request);
+
+    // check turn
+    if (match->getPlayer()->getName() == response) {
+        changeStatusTo(chooseHouse);
+    } else {
+        changeStatusTo(isNotTurn);
+    }
+
+
 }
 
 MainWindow::~MainWindow() {

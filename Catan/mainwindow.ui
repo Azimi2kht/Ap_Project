@@ -4612,22 +4612,6 @@ City: 2 Wheat + 3 Rock</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_31">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>190</y>
-      <width>141</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Longest Road: </string>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="QPlainTextEdit" name="plainTextEdit_4">
     <property name="geometry">
      <rect>
@@ -7069,7 +7053,6 @@ border: 0px;</string>
    <zorder>verticalLayoutWidget</zorder>
    <zorder>gridLayoutWidget</zorder>
    <zorder>lineEdit_29</zorder>
-   <zorder>lineEdit_31</zorder>
    <zorder>plainTextEdit_4</zorder>
    <zorder>TileNumber</zorder>
    <zorder>TileNumber_2</zorder>

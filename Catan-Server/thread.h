@@ -33,6 +33,7 @@ private:
     static int witchTurn;
     static int numberOfPlayersConnected;
     static int GameMode;
+    QString playerName;
 
 public slots:
     void readyRead();

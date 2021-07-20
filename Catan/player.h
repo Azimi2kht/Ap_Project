@@ -22,6 +22,7 @@ public:
     int getNumOfBrick() {return numOfBrick;}
     int getNumOfWheat() {return numOfWheat;}
     int getNumOfRock() {return numOfRock;}
+    QString getName() { return name;}
     COLOR getPlayerColor() {return playerColor;}
     QString sendToServer(QString _str);
 
