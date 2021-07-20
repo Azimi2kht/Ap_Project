@@ -1,1 +1,3 @@
--Do not disconnect any player. ( Or restart the server as well) !!
+- Do not disconnect any player. ( Or restart the server as well) !!
+- Server is Disposable
+- refresh before start

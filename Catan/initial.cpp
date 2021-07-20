@@ -22,13 +22,10 @@ void Initial::on_ThreePlayers_clicked()
     Name *w = new Name();
     w->show();
 
-    //    // setup mainwindow ui
-    //    MainWindow *w = new MainWindow();
-    //    w->show();
-
-    //    // change status
-    //    w->changeStatusTo(rollDice);
-
+    // send gameMode to server
+    ClientSocket socket;
+    QString Info("GameMode.3");
+    socket.Connect("127.0.0.1", 1234, Info);
 }
 
 
@@ -40,17 +37,17 @@ void Initial::on_FourPlayers_clicked()
     Name *w = new Name();
     w->show();
 
-//    // setup mainwindow ui
-//    MainWindow *w = new MainWindow();
-//    w->show();
+    // send gameMode to server
+    ClientSocket socket;
+    QString Info("GameMode.4");
+    socket.Connect("127.0.0.1", 1234, Info);
 
-//    // change status
-//    w->changeStatusTo(rollDice);
 }
 
 
 void Initial::on_Help_clicked()
 {
+
 
 }
 

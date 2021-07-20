@@ -32,6 +32,7 @@ private:
     static QVector<QString> turns;
     static int witchTurn;
     static int numberOfPlayersConnected;
+    static int GameMode;
 
 public slots:
     void readyRead();

@@ -110,7 +110,7 @@ border: 0px;</string>
      <string>number of online players:</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="Refresh_2">
+   <widget class="QPushButton" name="StartButton">
     <property name="geometry">
      <rect>
       <x>520</x>

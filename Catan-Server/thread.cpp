@@ -7,6 +7,7 @@ bool Thread::isFirstOne = true;
 QVector<QString> Thread::turns;
 int Thread::numberOfPlayersConnected = 0;
 int Thread::witchTurn = 0;
+int Thread::GameMode = 3;
 
 Thread::Thread(int ID, QObject* parent) : countDice(0),
         QThread(parent) {
@@ -59,11 +60,19 @@ void Thread::command(QString data) {
         QString color = colorToStr(playerColor);
         writeData(color);
 
+    } else if (data.contains("GetNumberOfOnlinePlayers")) {
+        writeData(Thread::numberOfPlayersConnected);
+
+    } else if (data.contains("GetGameMode")) {
+        // send gameMode
+        writeData(Thread::GameMode);
+
     } else if (data.contains("chooseTurn")) {
         // assuing all player are connected to server and sent their names
         writeData(QString(Thread::turns[Thread::numberOfPlayersConnected]));
 
-
+    } else if (data.contains("GameMode")) {
+        Thread::GameMode = data.split(".")[1].toInt();
 
     } else if (data.contains("GiveName")) {
         QString name = data.split(".")[0];

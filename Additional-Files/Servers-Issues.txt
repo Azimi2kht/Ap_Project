@@ -1,5 +1,3 @@
 - 6 & 8
-- Server is Disposable
-- initialize turns.
-- traverse turns.
+
 
