@@ -22,7 +22,12 @@ void Name::on_pushButton_clicked()
 
     socket.Connect("127.0.0.1", 1234, request);
 
+    // hide current window
+    this->hide();
+
     // open the new window
+    Waiting *w = new Waiting();
+    w->show();
 
     // get turns :TODO
 

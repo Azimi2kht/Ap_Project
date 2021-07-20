@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "clientsocket.h"
+#include "waiting.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Name; }
