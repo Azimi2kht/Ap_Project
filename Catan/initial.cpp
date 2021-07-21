@@ -44,7 +44,6 @@ void Initial::on_FourPlayers_clicked()
 
 }
 
-
 void Initial::on_Help_clicked()
 {
     help * h= new help();

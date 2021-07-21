@@ -35,5 +35,5 @@ COLOR Server::getColor(int numOfThead) {
     else if (numOfThead == 2)
         return Blue;
     else
-        return Red;
+        return Yellow;
 }

@@ -39,22 +39,22 @@ void Waiting::on_StartButton_clicked()
     // set number of online players
     request = "GetNumberOfOnlinePlayers";
     QString response = socket.Connect("127.0.0.1", 1234, request);
-
     Waiting::numberOfOnlinePlayers = response.toInt();
 
     if (Waiting::numberOfOnlinePlayers >= gameMode) {
-//        // hide curren windows
-//        this->hide();
+        // hide current windows
+        this->hide();
 
-//        // setup next window
-//        MainWindow *w = new MainWindow();
-//        w->show();
+        // setup next window
+        MainWindow *w = new MainWindow();
+        w->show();
         ClientSocket socket;
         qInfo() << socket.Connect("127.0.0.1", 1234, "GetName");
     } else {
         QMessageBox info;
         info.setText("Not enough players has joined to start the match!");
         info.exec();
+
     }
 }
 

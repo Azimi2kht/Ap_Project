@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include "name.h"
-#include "help.h"s
+#include "help.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Initial; }
